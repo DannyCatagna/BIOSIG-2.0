@@ -1,0 +1,2 @@
+# Preserve uploaded academic originals byte-for-byte for SHA-256 verification.
+content/academic/** -text whitespace=cr-at-eol

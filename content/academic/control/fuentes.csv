@@ -1,0 +1,9 @@
+﻿id,institucion,recurso,url,verificacion_pendiente
+S01,Convenio sobre la Diversidad Biológica,Perfil de Ecuador,https://www.cbd.int/countries/profile?country=ec,Consulta institucional; su propio texto de perfil advierte estado de borrador en algunos apartados
+S02,Sistema Nacional de Monitoreo de Bosques,Monitoreo de condiciones de ecosistemas terrestres,https://snmb.ambiente.gob.ec/snmb/?page_id=721,Fuente oficial de cartografía de ecosistemas; comprobar acceso y condiciones para reutilización
+S03,Sistema Nacional de Monitoreo de Bosques,Monitoreo de carbono y estratos forestales,https://snmb.ambiente.gob.ec/snmb/?page_id=719,Fuente de estratos forestales y productos cartográficos
+S04,MapBiomas Ecuador,Cobertura y uso de la tierra,https://ecuador.mapbiomas.org/,Revisar metodología de la colección y licencia antes de integrar
+S05,Constitución de la República del Ecuador,Texto consolidado vigente,https://www.asambleanacional.gob.ec/,Portal institucional; buscar texto consolidado vigente para artículos citados
+S06,Asamblea Nacional del Ecuador,Código Orgánico del Ambiente,https://www.asambleanacional.gob.ec/sites/default/files/private/asambleanacional/filesasambleanacionalnameuid-28/Codigo-Organico-Ambiente.pdf,Texto de referencia; corroborar reformas y versión vigente
+S07,Secretaría del CDB,Marco Mundial Kunming-Montreal,https://www.cbd.int/gbf,Documento oficial internacional
+S08,Dirección del Parque Nacional Galápagos,Programas de conservación,https://galapagos.gob.ec/,Seleccionar documentos del caso y comprobar páginas específicas
