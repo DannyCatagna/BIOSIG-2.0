@@ -1,3 +1,4 @@
+import { PageErrorBoundary } from "../ui/PageErrorBoundary";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { Leaf, Menu, X, ArrowUpRight } from "lucide-react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
@@ -84,15 +85,17 @@ export function Layout() {
         </div>
       </header>
       <main id="contenido" tabIndex={-1} ref={mainRef}>
-        <Suspense
-          fallback={
-            <p className="container page-content" role="status">
-              Cargando lectura…
-            </p>
-          }
-        >
-          <Outlet />
-        </Suspense>
+        <PageErrorBoundary key={pathname}>
+          <Suspense
+            fallback={
+              <p className="container page-content" role="status">
+                Cargando lectura…
+              </p>
+            }
+          >
+            <Outlet />
+          </Suspense>
+        </PageErrorBoundary>
       </main>
       <footer className="site-footer">
         <div className="container academic-utilities footer-resources">

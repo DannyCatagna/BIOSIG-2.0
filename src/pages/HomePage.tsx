@@ -1,11 +1,4 @@
-import {
-  ArrowRight,
-  BookOpen,
-  Compass,
-  Layers3,
-  Leaf,
-  ShieldCheck,
-} from "lucide-react";
+import { ArrowRight, BookOpen, Compass, Layers3, Leaf } from "lucide-react";
 import { Link } from "react-router-dom";
 import { LinkButton } from "../components/ui/LinkButton";
 
@@ -17,14 +10,6 @@ const modules = [
     text: "Una mirada a los paisajes y las preguntas que nos conectan con la biodiversidad.",
     to: "/ecuador-megadiverso",
     tag: "UNIDAD 2 · LECTURAS Y GUÍAS",
-  },
-  {
-    number: "SIG",
-    icon: ShieldCheck,
-    title: "Áreas Protegidas",
-    text: "Acércate al territorio y aprende a consultar información sobre su protección.",
-    to: "/areas-protegidas",
-    tag: "EXPLORAR EL TERRITORIO",
   },
   {
     number: "U3",
@@ -54,11 +39,12 @@ export function HomePage() {
             biodiversidad y aprender a conservarla.
           </p>
           <div className="hero-actions">
-            <LinkButton to="/ecuador-megadiverso">
-              Comenzar a explorar
-            </LinkButton>
+            <LinkButton to="/ecuador-megadiverso">Aprender</LinkButton>
             <Link to="/laboratorio-sig" className="text-link">
-              Conoce el laboratorio <ArrowRight size={17} />
+              Explorar mapa · en preparación <ArrowRight size={17} />
+            </Link>
+            <Link to="/laboratorio-sig?apartado=guias" className="text-link">
+              Realizar prácticas <ArrowRight size={17} />
             </Link>
           </div>
           <div className="hero-note">
@@ -101,7 +87,7 @@ export function HomePage() {
               conservación.
             </p>
           </div>
-          <div className="module-grid">
+          <div className="module-grid home-units">
             {modules.map(({ icon: Icon, ...item }) => (
               <Link className="module-card" to={item.to} key={item.number}>
                 <div className="card-top">

@@ -39,6 +39,10 @@ for (const width of [1440, 390]) {
         }
       }
       for (const subtopic of topic.subtopics) {
+        const toggle = page.getByRole("button", {
+          name: "Mostrar índice de lectura",
+        });
+        if (await toggle.count()) await toggle.click();
         await page
           .getByRole("navigation", { name: "Índice del tema" })
           .getByRole("link", {
@@ -98,12 +102,10 @@ for (const width of [1440, 390]) {
       for (const topicId of guide.topicIds) {
         const topic = data.topics.find((t) => t.id === topicId)!;
         await expect(
-          page
-            .locator(".related-links")
-            .getByRole("link", {
-              name: `${topic.id}. ${topic.title}`,
-              exact: true,
-            }),
+          page.locator(".related-links").getByRole("link", {
+            name: `${topic.id}. ${topic.title}`,
+            exact: true,
+          }),
         ).toHaveAttribute("href", topicURL(topic).replace("/#/", "#/"));
       }
       expect(
@@ -130,12 +132,10 @@ test("Índices completos, referencias fieles, rutas y control editorial", async 
     for (const topic of data.topics.filter((t) => t.unitId === id)) {
       for (const subtopic of topic.subtopics) {
         await expect(
-          page
-            .locator(".unit-index")
-            .getByRole("link", {
-              name: `${subtopic.id} ${subtopic.title}`,
-              exact: true,
-            }),
+          page.locator(".unit-index").getByRole("link", {
+            name: `${subtopic.id} ${subtopic.title}`,
+            exact: true,
+          }),
         ).toHaveAttribute(
           "href",
           `${topicURL(topic).replace("/#/", "#/")}?apartado=${subtopic.id}`,

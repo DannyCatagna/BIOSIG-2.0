@@ -537,3 +537,106 @@
     break-inside: avoid-page;
   }
 }
+/* Didactic navigation remains in normal flow, never covering the reading. */
+.stage-nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 24px 0;
+}
+.stage-nav a {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #b5c3b0;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.stage-nav a:hover {
+  background: #edf1e7;
+}
+.stage-nav span {
+  color: #625b4b;
+  font-size: 12px;
+}
+.learning-stage {
+  border-top: 2px solid #b5c3b0;
+  padding-top: 26px;
+  margin-top: 32px;
+}
+.learning-stage > header h2 {
+  font-size: 32px;
+  margin-top: 8px;
+}
+.learning-stage .reading-section {
+  margin-top: 30px;
+}
+.index-toggle {
+  width: 100%;
+  text-align: left;
+  min-height: 44px;
+  background: #edf1e7;
+  border: 1px solid #b5c3b0;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 14px;
+  color: var(--forest);
+  font-weight: 600;
+}
+.document-metadata summary,
+.editorial-details summary {
+  min-height: 44px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.home-units {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.reading-index a,
+.related-links a,
+.academic-utilities a {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.breadcrumb {
+  min-height: 44px;
+  line-height: 1.6;
+}
+.hero-actions .text-link {
+  min-height: 44px;
+}
+.reading-section h2,
+.academic-title h1 {
+  overflow-wrap: anywhere;
+}
+:where(button, select, summary, a):focus-visible {
+  outline: 3px solid #805029;
+  outline-offset: 4px;
+}
+@media (max-width: 640px) {
+  .stage-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .stage-nav a {
+    padding: 12px;
+  }
+  .home-units {
+    grid-template-columns: 1fr;
+  }
+  .reading-index {
+    padding-bottom: 12px;
+  }
+  .reading-body p {
+    font-size: 16px;
+  }
+  .hero-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .learning-stage > header h2 {
+    font-size: 28px;
+  }
+}

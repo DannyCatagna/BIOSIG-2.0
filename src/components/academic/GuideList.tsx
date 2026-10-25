@@ -15,10 +15,17 @@ export function GuideList({ topicId }: { topicId?: string }) {
               UNIDAD {guide.topicIds[0][0]} · TEMAS {guide.topicIds.join(" / ")}
             </p>
             <h3>
-              <Link to={guidePath(guide.id)}>{guide.title}</Link>
+              <Link
+                to={`${guidePath(guide.id)}${topicId ? `?origen=${topicId}` : ""}`}
+              >
+                {guide.title}
+              </Link>
             </h3>
             <p>{guide.objective}</p>
-            <Link className="text-link" to={guidePath(guide.id)}>
+            <Link
+              className="text-link"
+              to={`${guidePath(guide.id)}${topicId ? `?origen=${topicId}` : ""}`}
+            >
               Consultar guía →
             </Link>
           </div>

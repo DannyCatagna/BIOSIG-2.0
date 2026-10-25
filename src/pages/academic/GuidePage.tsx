@@ -1,5 +1,6 @@
+import { ReadingIndex } from "../../components/academic/ReadingIndex";
 import { useReadingPosition } from "../../hooks/useReadingPosition";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import {
   guides,
   topics,
@@ -15,9 +16,13 @@ import { NotFoundPage } from "../NotFoundPage";
 export function GuidePage() {
   useReadingPosition();
   const { guideId } = useParams();
+  const [search] = useSearchParams();
   const guide = guides.find((g) => g.id === guideId);
   if (!guide) return <NotFoundPage />;
   const linkedTopics = topics.filter((t) => guide.topicIds.includes(t.id));
+  const origin = linkedTopics.find((t) => t.id === search.get("origen"));
+  const guideLink = (section: string) =>
+    `${guidePath(guide.id)}?apartado=${section}${origin ? `&origen=${origin.id}` : ""}`;
   return (
     <div className="container page-content academic-page">
       <Link to="/laboratorio-sig" className="breadcrumb">
@@ -29,25 +34,27 @@ export function GuidePage() {
         </p>
         <h1>{guide.title}</h1>
       </header>
+      {origin && (
+        <Link className="button button-secondary" to={topicPath(origin)}>
+          ← Volver al tema {origin.id}
+        </Link>
+      )}
       <AcademicNotice />
       <AcademicNotice cartography />
       <div className="reading-layout">
-        <aside className="reading-index">
+        <ReadingIndex>
           <nav aria-label="Índice de la guía">
             <h2>En esta guía</h2>
-            <Link to={`${guidePath(guide.id)}?apartado=fundamentacion`}>
+            <Link to={guideLink("fundamentacion")}>
               Fundamentación vinculada
             </Link>
             {guide.sections.map((section) => (
-              <Link
-                key={section.id}
-                to={`${guidePath(guide.id)}?apartado=${section.id}`}
-              >
+              <Link key={section.id} to={guideLink(section.id)}>
                 {section.title}
               </Link>
             ))}
           </nav>
-        </aside>
+        </ReadingIndex>
         <article className="reading-body">
           <div className="document-metadata">
             <AcademicMarkdown text={guide.metadataMarkdown} />
@@ -69,8 +76,9 @@ export function GuidePage() {
               ))}
             </div>
           </section>
-          {guide.sections.map((section) => (
+          {guide.sections.map((section, index) => (
             <section className="reading-section" key={section.id}>
+              <p className="eyebrow">PASO {index + 1} DE LA GUÍA</p>
               <h2 id={sectionId(section.id)} tabIndex={-1}>
                 {section.title}
               </h2>
