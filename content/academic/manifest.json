@@ -1,0 +1,62 @@
+[
+  {
+    "path": "control/fuentes.csv",
+    "sha256": "e8611541f39a3f027718b08f8a2b0c3753f58a6d0dad05c1fccf48e7105ee640"
+  },
+  {
+    "path": "control/matriz_curricular.csv",
+    "sha256": "c32bb92d88cbc371b992901a2a1cbd2f9b0b2e6c44d3ca915e1758716195ae76"
+  },
+  {
+    "path": "guias/guia-01.md",
+    "sha256": "92aed7548f2d30bc975e24bfb7a6ff17293ab70d416e0420081c75ea23e646d7"
+  },
+  {
+    "path": "guias/guia-02.md",
+    "sha256": "674a5f6b8036cbaa6c2b8743f0cfc2cc9015ec1a450a824cc50a80b0ddc89457"
+  },
+  {
+    "path": "guias/guia-03.md",
+    "sha256": "ee892e91feacc1696f3660e1f8c7e779d3833551eacca121b3e00a8e7698cd5b"
+  },
+  {
+    "path": "guias/guia-04.md",
+    "sha256": "2275f216e675c518e119e3ccdd7dbd58b498bd57874c2c4d2f6f4d5b7f02d583"
+  },
+  {
+    "path": "paquete-academico.docx",
+    "sha256": "3c9eaab5eb6b5b3861c27d46f430156bcc63cc12b5bdd0c0e6dac564c5350551"
+  },
+  {
+    "path": "unidad-2/tema-2-1.md",
+    "sha256": "cc2234cc76592e8226ccb2e0be0777727280e03c5f106ea7ccb02841dfb3860e"
+  },
+  {
+    "path": "unidad-2/tema-2-2.md",
+    "sha256": "c6e2757bf9a869ae34d8deed731b1be1edae946f39af3bbafec79437b5423044"
+  },
+  {
+    "path": "unidad-2/tema-2-3.md",
+    "sha256": "37d9577100cad56377656fa1d9d847e1bddfa1c7af0abf1022bf148d8da01f3d"
+  },
+  {
+    "path": "unidad-2/tema-2-4.md",
+    "sha256": "5122bca389705e0439f4a0e16b00a90d700dba3f926ee36f067d0f57124c95e0"
+  },
+  {
+    "path": "unidad-3/tema-3-1.md",
+    "sha256": "970a6d94e2ab01940ffdfb382f7c65ea9dae67a959fe175bcd01ef3d9d375b84"
+  },
+  {
+    "path": "unidad-3/tema-3-2.md",
+    "sha256": "addc080f2fcaf2debd0f5b5eeaa24789859a18ffd2ef81d4a7b39e940a1b9a0b"
+  },
+  {
+    "path": "unidad-3/tema-3-3.md",
+    "sha256": "ed0479e874909c75927925d34501b9cca9cdaf97edcad83b9de97dc1eeb98f72"
+  },
+  {
+    "path": "unidad-3/tema-3-4.md",
+    "sha256": "0ad34377c997ca2251258d0ba1c93a55cbf25a07a2bc7226e8f633c81c4f2eb0"
+  }
+]

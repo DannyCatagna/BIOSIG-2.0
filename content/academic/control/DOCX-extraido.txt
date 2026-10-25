@@ -1,0 +1,599 @@
+BIOSIG 2.0Paquete académico unificado
+Unidades 2 y 3 · Guías didácticas · Matriz curricular · Fuentes · Instrucciones para Codex
+Documento de integración — borradores para revisión científica, docente y editorial.
+Fuente curricular: Sílabo UNACH, «Biodiversidad del Ecuador: Flora, Fauna y Especies en Peligro de Extinción», período 2025-1S.
+RESTRICCIÓN EXPRESA: NO reutilizar, consultar, copiar ni importar código del proyecto anterior Tesis-2.
+Este archivo integra fielmente los 17 archivos del paquete académico inicial. Los textos son borradores condensados: no sustituyen los desarrollos extensos de la conversación ni constituyen aún material validado para publicación.
+Índice de secciones
+I. Orientaciones del paquete
+II. Unidad 2 — Ecuador, país Megadiverso (temas 2.1–2.4)
+III. Unidad 3 — Conservación de la biodiversidad en el Ecuador (temas 3.1–3.4)
+IV. Cuatro guías didácticas
+V. Matriz curricular
+VI. Registro de fuentes
+VII. Pendientes editoriales
+VIII. Instrucciones para Codex
+
+I. Orientaciones y alcance
+BIOSIG 2.0 — Paquete académico inicial
+Propósito: organizar borradores de las unidades 2 y 3 para posterior revisión y programación educativa.
+Límite crítico: ESTE PAQUETE NO CONTIENE NI REUTILIZA CÓDIGO DE LA PLATAFORMA ANTERIOR. Son únicamente archivos nuevos de contenido, guías y control académico. No constituye una aplicación ejecutable.
+Contenido
+unidad-2/: cuatro temas y doce subtemas.
+unidad-3/: cuatro temas y doce subtemas.
+guias/: cuatro guías integradoras propuestas (no cantidad prescrita en el sílabo).
+control/matriz_curricular.csv: relación temas-contenidos-actividades-evidencias.
+control/fuentes.csv: fuentes institucionales y tareas de verificación.
+control/REVISION_EDITORIAL.md: lista de pendientes.
+PROMPT_PARA_CODEX.md: instrucciones para implementar únicamente después de la revisión.
+Referencia curricular
+UNACH, Sí­labo de «Biodiversidad del Ecuador: Flora, Fauna y Especies en Peligro de Extinción», periodo 2025-1S, pp. 5–6 y 8–9. Los títulos oficiales se conservaron incluso cuando están repetidos (2.1.1/2.1.2, 2.4.2/2.4.3, 3.2.2/3.2.3).
+Situación editorial
+Los documentos son borradores condensados originales preparados a partir de la planificación y el desarrollo temático de esta conversación, NO transcripciones íntegras de todos los textos escritos en el chat ni versiones finales aptas para publicación. Deben ampliarse, contrastarse con fuentes primarias, incluir citas por afirmación e ilustraciones autorizadas, y validarse académicamente antes de su uso público.
+Qué hacer primero
+Revisar la matriz con el sílabo y el perfil.
+Auditar bibliografía y citar afirmaciones específicas con documento, edición, fecha y página cuando proceda.
+Validar los casos territoriales y disponibilidad de capas.
+Aprobar las guías didácticas y rúbricas.
+Integrar por etapas con Codex, sin añadir Google Earth Engine ni reutilizar código anterior.
+
+II. Unidad 2 — Ecuador, país Megadiverso · Tema 2.1
+Tema 2.1. Diversidad de las Especies
+Unidad: 2 | Estado: borrador didáctico para revisión, NO publicación automática
+Base curricular: Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.
+Alcance: la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.
+Propósito formativo
+El estudiante relacionará factores geográficos y ambientales con la diversidad ecológica, distinguiendo observación cartográfica de inferencia biológica.
+Desarrollo por subtemas
+2.1.1. Características ambientales del Ecuador
+El Ecuador presenta una notable heterogeneidad ambiental por la interacción de su posición ecuatorial, los Andes, las corrientes oceánicas y su historia geológica. El relieve configura barreras y corredores, origina fuertes contrastes altitudinales y contribuye a que los ambientes se distribuyan de forma desigual. Una región natural no corresponde a un único ecosistema: el litoral, por ejemplo, contiene manglares, bosques secos y sectores de bosque húmedo.
+Para estudiar estas relaciones se requieren mapas físicos, modelos de elevación y una clasificación cartográfica de ecosistemas. La interpretación deberá considerar la escala y fecha de cada capa. Una imagen de satélite permite observar patrones de superficie, pero por sí sola no identifica con certeza toda la flora y fauna de un sitio.
+2.1.2. Características ambientales del Ecuador
+La temperatura y la precipitación influyen sobre la distribución de organismos, aunque su efecto depende también de los suelos, las interacciones biológicas y la historia de cada población. Dos localidades de altitud semejante pueden diferir sustancialmente en humedad debido a exposición de laderas, vientos y circulación de masas de aire.
+En BIOSIG se propondrá comparar localidades a partir de elevación y datos climáticos con unidades y periodos explícitos. No se atribuirán valores climáticos estimados a ubicaciones que carezcan de registros o capas fiables. Los patrones de riqueza de especies tampoco deben simplificarse como una disminución uniforme con la altitud.
+2.1.3. Características Generales del Ecuador
+Se distinguen las regiones Costa, Sierra, Amazonía e Insular. Esta regionalización proporciona una referencia pedagógica para organizar contrastes ambientales, pero cada región reúne múltiples ecosistemas. En Galápagos, el aislamiento, los procesos volcánicos y la conexión oceánica condicionan la composición biológica; en la Sierra, el gradiente andino organiza distintos ambientes de montaña.
+Un estudiante debe localizar las regiones, describir sus diferencias y explicar por qué el relieve, el clima y la geografía contribuyen a la megadiversidad. La evidencia será un mapa comentado, no una enumeración de regiones sin interpretación.
+Integración SIG propuesta
+Mapa físico, elevación y cartografía oficial de ecosistemas; contraste de tres localidades ecuatorianas.
+Evidencia: Mapa comentado y ficha comparativa.
+Preguntas para el estudiante
+¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?
+¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?
+¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?
+Control de rigor
+No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.
+Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.
+Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.
+No representar geometrías inventadas como delimitaciones oficiales.
+Fuentes de consulta propuestas
+S01
+S02
+> Pendiente editorial: verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar.
+
+II. Unidad 2 — Ecuador, país Megadiverso · Tema 2.2
+Tema 2.2. Flora y Fauna del Ecuador
+Unidad: 2 | Estado: borrador didáctico para revisión, NO publicación automática
+Base curricular: Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.
+Alcance: la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.
+Propósito formativo
+El estudiante examinará relaciones entre fauna, ecosistemas y distribución geográfica a partir de casos y registros verificables.
+Desarrollo por subtemas
+2.2.1. Fauna del Ecuador / ecosistemas
+La fauna ocupa hábitats diferentes según disponibilidad de recursos, temperatura, humedad, refugio y posibilidades de reproducción. El jaguar puede servir como caso de grandes mamíferos de bosques tropicales; el oso andino, de relaciones entre bosques montanos y otros ambientes andinos; las iguanas marinas, de adaptación insular. Estas referencias no autorizan a inferir su presencia en toda la región.
+Se distinguirán hábitat, nicho ecológico y distribución geográfica. Los puntos de registros biológicos reflejan lugares documentados con cierto esfuerzo de muestreo; la ausencia de puntos no demuestra ausencia de organismos.
+2.2.2. Fauna del Ecuador
+La fauna ecuatoriana incluye mamíferos, aves, anfibios, reptiles, peces y numerosos grupos de invertebrados. Los grupos difieren en necesidades ecológicas, mecanismos de dispersión y sensibilidad a alteraciones del ambiente. Su comparación puede revelar asociaciones entre rasgos biológicos y gradientes ambientales.
+Las fichas incluirán nombre científico, fuentes taxonómicas, hábitat documentado, distribución representada con la incertidumbre adecuada y, solo cuando exista una evaluación identificable, categoría de conservación fechada. No se utilizarán cifras nacionales de especies sin corte temporal y fuente.
+2.2.3. Áreas protegidas del Ecuador
+Las áreas protegidas son instrumentos territoriales de conservación que contribuyen a resguardar ecosistemas y hábitats. En esta unidad se introducirán como contexto biogeográfico de la fauna, dejando para la Unidad 3 su estructura jurídica, subsistemas y estrategias de manejo.
+El estudiante seleccionará áreas en ambientes contrastantes y buscará especies registradas allí mediante fuentes científicas. Un límite protegido no demuestra por sí solo eficacia de conservación ni estabilidad de sus poblaciones.
+Integración SIG propuesta
+Mapa de ecosistemas, límites oficiales SNAP y fuentes biológicas documentadas.
+Evidencia: Lámina informativa y ficha de seis especies en tres áreas documentadas.
+Preguntas para el estudiante
+¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?
+¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?
+¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?
+Control de rigor
+No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.
+Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.
+Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.
+No representar geometrías inventadas como delimitaciones oficiales.
+Fuentes de consulta propuestas
+S01
+S02
+> Pendiente editorial: verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar.
+
+II. Unidad 2 — Ecuador, país Megadiverso · Tema 2.3
+Tema 2.3. Flora y Fauna del Ecuador
+Unidad: 2 | Estado: borrador didáctico para revisión, NO publicación automática
+Base curricular: Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.
+Alcance: la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.
+Propósito formativo
+El estudiante explicará flora, endemismo y cuencas a partir de relaciones espaciales ecológicamente fundamentadas.
+Desarrollo por subtemas
+2.3.1. Flora del Ecuador Ecosistemas
+La flora comprende taxones vegetales presentes en un territorio; la vegetación describe comunidades y su estructura; un ecosistema incorpora además el ambiente y las interacciones. Ecuador contiene bosques tropicales, formaciones andinas, páramos, bosques secos y manglares con especies y funciones diferentes. La composición depende de relieve, humedad, suelos y otros factores.
+Los mapas de vegetación no identifican automáticamente especies individuales. BIOSIG enlazará una capa oficial de ecosistemas con fichas de flora representativa que citen inventarios o estudios; no extrapolará listados locales a toda una región.
+2.3.2. Especies Endemicas
+Una especie endémica posee distribución natural restringida a un territorio definido; el término depende de la escala de referencia. Es diferente de nativa y de amenazada: una especie puede ser endémica sin estar clasificada en riesgo y viceversa. Los factores históricos y geográficos ayudan a explicar áreas de distribución restringida.
+La práctica contrastará distribuciones documentadas con áreas de conservación. Si una especie es sensible a colecta o perturbación, los registros espaciales se mostrarán generalizados; los puntos de observación no equivalen a límites de distribución potencial.
+2.3.3. Manejo de cuencas hídricas en el Ecuador
+Una cuenca es un territorio cuyo drenaje converge hacia una salida o sistema fluvial. La vegetación, los suelos, el relieve y las actividades humanas interactúan sobre infiltración, escorrentía, erosión y calidad de agua. No debe presumirse que plantar árboles aumente el caudal; los resultados dependen de especies, suelo, clima y manejo.
+Se propondrá superponer límites hidrográficos documentados con elevación, ecosistemas y coberturas. Una relación espacial sugiere preguntas de investigación, pero establecer impactos hídricos requiere observaciones y metodologías específicas.
+Integración SIG propuesta
+Mapa de ecosistemas, hidrografía, elevación, fichas científicas de plantas.
+Evidencia: Informe cartográfico de una cuenca y dos taxones documentados.
+Preguntas para el estudiante
+¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?
+¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?
+¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?
+Control de rigor
+No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.
+Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.
+Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.
+No representar geometrías inventadas como delimitaciones oficiales.
+Fuentes de consulta propuestas
+S02
+S03
+> Pendiente editorial: verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar.
+
+II. Unidad 2 — Ecuador, país Megadiverso · Tema 2.4
+Tema 2.4. Extinción de las Especies
+Unidad: 2 | Estado: borrador didáctico para revisión, NO publicación automática
+Base curricular: Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.
+Alcance: la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.
+Propósito formativo
+El estudiante distinguirá riesgo de extinción, transformación territorial y presiones ambientales mediante evidencia trazable.
+Desarrollo por subtemas
+2.4.1. Extinción de las especies
+Extinción global significa desaparición de todos los individuos de una especie; extinción local significa desaparición en un territorio determinado. La disminución de registros puede deberse a menor esfuerzo de muestreo y no prueba extinción. Las categorías de la Lista Roja de UICN clasifican riesgo con criterios específicos y fecha de evaluación.
+Las categorías Vulnerable, En Peligro y En Peligro Crítico son las categorías de especies amenazadas. En BIOSIG la categoría se citará con su fuente, alcance y año; nunca se estimará solo a partir de un mapa.
+2.4.2. Amenazas para la perdida de la Biodiversidad
+Deforestación, conversión de coberturas y fragmentación pueden reducir la disponibilidad y conectividad de hábitats. Deforestación y degradación son procesos distintos: puede haber pérdida de calidad ecológica sin desaparición cartográfica del bosque. Los impactos biológicos varían entre especies y paisajes.
+Mediante mapas temporales comparables se distinguirán cambios de cobertura, fragmentación estructural y efectos poblacionales no demostrados. Una diferencia de clase cartográfica no autoriza a concluir que una especie se extinguió.
+2.4.3. Amenazas para la perdida de la Biodiversidad
+Otras presiones incluyen sobreexplotación, contaminación, introducción de especies invasoras y cambio climático. No toda especie introducida es invasora. Asimismo, la proximidad de una actividad económica no demuestra contaminación: se necesitan mediciones y causalidad documentada.
+Una actividad comparará un territorio continental sometido a cambios de cobertura y un caso insular sobre especies introducidas. Se explicitarán los límites de la teledetección para detectar amenazas biológicas.
+Integración SIG propuesta
+Mapas temporales de cobertura, registros biológicos y ficha UICN cuando esté disponible.
+Evidencia: Portafolio con interpretación de cambios y advertencias metodológicas.
+Preguntas para el estudiante
+¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?
+¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?
+¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?
+Control de rigor
+No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.
+Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.
+Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.
+No representar geometrías inventadas como delimitaciones oficiales.
+Fuentes de consulta propuestas
+S02
+S04
+> Pendiente editorial: verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar.
+
+III. Unidad 3 — Conservación de la biodiversidad · Tema 3.1
+Tema 3.1. Ámbito legal y normativa ecuatoriana
+Unidad: 3 | Estado: borrador didáctico para revisión, NO publicación automática
+Base curricular: Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.
+Alcance: la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.
+Propósito formativo
+El estudiante interpretará fundamentos legales aplicables a la conservación, sin utilizar el SIG como sustituto de análisis jurídico.
+Desarrollo por subtemas
+3.1.1. Tratamiento constitucional de la diversidad biológica
+La Constitución de 2008 reconoce derechos de la naturaleza, incluidos respeto de ciclos y procesos ecológicos y restauración, y establece responsabilidades sobre biodiversidad y áreas protegidas. Los artículos 71–73, 400 y 405 son puntos de consulta relevantes; antes de publicarlos deben revisarse en un texto consolidado vigente.
+En BIOSIG el estudiante vinculará normas con un caso territorial sin confundir una relación geográfica con una conclusión jurídica. Se identificarán norma, artículo y fecha de consulta.
+3.1.2. Instrumentos Internacionales
+El Convenio sobre la Diversidad Biológica aborda conservación, uso sostenible y participación justa en beneficios de recursos genéticos. También son relevantes el Marco Mundial Kunming-Montreal y la Convención sobre los Humedales. Su estudio permitirá interpretar compromisos y gobernanza, sin afirmar automáticamente su cumplimiento en territorios particulares.
+La práctica incluirá un instrumento internacional aplicado a un caso con cartografía pertinente, por ejemplo humedales; se distinguirá un sitio Ramsar de una categoría administrativa del SNAP.
+3.1.3. Desarrollo Normativo de diversidad biológica
+El Código Orgánico del Ambiente y su Reglamento organizan materias de conservación y manejo. El SNAP comprende subsistemas estatal, autónomo descentralizado, comunitario y privado según el artículo 37 del COA. Se debe diferenciar el marco normativo general de cada declaratoria y plan de manejo.
+La versión normativa deberá revisarse antes de publicar; no se usará un documento de años anteriores como garantía automática de vigencia actual. La actividad será una ficha jurídico-territorial documentada.
+Integración SIG propuesta
+Cartografía oficial de un área protegida y documentos normativos vigentes.
+Evidencia: Ficha de análisis jurídico-territorial.
+Preguntas para el estudiante
+¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?
+¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?
+¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?
+Control de rigor
+No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.
+Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.
+Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.
+No representar geometrías inventadas como delimitaciones oficiales.
+Fuentes de consulta propuestas
+S05
+S06
+S07
+> Pendiente editorial: verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar.
+
+III. Unidad 3 — Conservación de la biodiversidad · Tema 3.2
+Tema 3.2. Sistema Nacional de Áreas Protegidas
+Unidad: 3 | Estado: borrador didáctico para revisión, NO publicación automática
+Base curricular: Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.
+Alcance: la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.
+Propósito formativo
+El estudiante analizará relaciones espaciales de protección y manejo diferenciando cartografía, gestión y resultados ecológicos.
+Desarrollo por subtemas
+3.2.1. Ordenamiento territorial
+El ordenamiento territorial busca organizar usos y decisiones sobre espacios atendiendo a características ambientales y sociales. Para conservar biodiversidad importan la localización de áreas protegidas, el entorno de cuencas, las coberturas, infraestructura y potenciales corredores ecológicos. La superposición espacial permite identificar coincidencias, no impactos causales por sí sola.
+BIOSIG exigirá identificar fecha, escala, sistema de referencia y procedencia de capas. La zonificación de un área se representará solo si existe mapa oficial de su plan de manejo.
+3.2.2. Estrategias de manejo y conservación
+El manejo requiere diagnóstico, objetivos, planes, acciones e indicadores. La vigilancia, restauración ecológica, educación, investigación y participación pueden integrarse en estrategias adaptadas a cada territorio. Una medida aplicada no equivale automáticamente a un resultado efectivo para las especies.
+Los estudiantes compararán medidas de manejo descritas en dos documentos institucionales y examinarán sus dimensiones espaciales.
+3.2.3. Estrategias de manejo y conservación
+El monitoreo sistemático permite documentar cambios en indicadores ecológicos y operativos. Cobertura vegetal, registros de fauna y reportes de vigilancia son evidencias diferentes. Comparaciones temporales requieren periodos, clasificaciones y metodologías compatibles.
+La actividad distinguirá cambio de cobertura, fragmentación estructural y evidencia directa de poblaciones. Se valorará explicitar límites de los datos.
+Integración SIG propuesta
+Límites oficiales SNAP, ecosistemas y cobertura, planes de manejo disponibles.
+Evidencia: Informe cartográfico comparativo de dos áreas.
+Preguntas para el estudiante
+¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?
+¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?
+¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?
+Control de rigor
+No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.
+Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.
+Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.
+No representar geometrías inventadas como delimitaciones oficiales.
+Fuentes de consulta propuestas
+S03
+S06
+> Pendiente editorial: verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar.
+
+III. Unidad 3 — Conservación de la biodiversidad · Tema 3.3
+Tema 3.3. Extinción de especies en el Ecuador
+Unidad: 3 | Estado: borrador didáctico para revisión, NO publicación automática
+Base curricular: Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.
+Alcance: la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.
+Propósito formativo
+El estudiante comparará conservación in situ y ex situ y justificará herramientas apropiadas para casos reales.
+Desarrollo por subtemas
+3.3.1. Conservación - in situ
+La conservación in situ mantiene componentes de biodiversidad en sus ambientes naturales y puede proteger redes ecológicas y procesos evolutivos. No se limita a parques nacionales: otros territorios y paisajes de conservación pueden ser pertinentes. Su eficacia depende de presiones, manejo y seguimiento.
+Con SIG se analizarán áreas de conservación y coincidencias con ecosistemas o registros; la existencia de protección legal no demuestra resultados poblacionales.
+3.3.2. Conservación - ex situ
+La conservación ex situ preserva organismos o material biológico fuera de su ambiente original, como en bancos de germoplasma, jardines botánicos y centros de reproducción. Puede complementar programas in situ, pero presenta requisitos sanitarios, genéticos y financieros. Una liberación requiere evaluación y monitoreo posteriores.
+BIOSIG contextualizará geográficamente un programa documentado sin reducir el aprendizaje a un mapa: el análisis biológico incluye genética, reproducción, adaptación y viabilidad.
+3.3.3. Herramientas de Conservación
+El conjunto de herramientas incluye inventarios, genética de conservación, monitoreo, restauración, áreas protegidas, educación ambiental y herramientas espaciales. Los SIG representan y analizan componentes geográficos, pero no sustituyen métodos biológicos ni autorizaciones de manejo.
+La evidencia será una propuesta argumentada de herramientas para un caso, justificando cuáles necesitan datos espaciales y cuáles requieren investigación de campo o laboratorio.
+Integración SIG propuesta
+Cartografía contextual y documentación institucional de un caso de conservación.
+Evidencia: Estudio de caso comparativo.
+Preguntas para el estudiante
+¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?
+¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?
+¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?
+Control de rigor
+No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.
+Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.
+Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.
+No representar geometrías inventadas como delimitaciones oficiales.
+Fuentes de consulta propuestas
+S06
+S08
+> Pendiente editorial: verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar.
+
+III. Unidad 3 — Conservación de la biodiversidad · Tema 3.4
+Tema 3.4. Estrategias y manejo de conservación en el Ecuador
+Unidad: 3 | Estado: borrador didáctico para revisión, NO publicación automática
+Base curricular: Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.
+Alcance: la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.
+Propósito formativo
+El estudiante distinguirá clasificación, estructura y participación comunitaria en estudios de caso territorialmente documentados.
+Desarrollo por subtemas
+3.4.1. Sistema Nacional de Areas protegidas en el Ecuador (SNAP)_Clasificacion
+La categoría de manejo identifica la figura de protección de un área según su declaración y normativa aplicable. Debe diferenciarse del subsistema al que pertenece. El catálogo legal y las denominaciones históricas de áreas existentes pueden requerir explicación separada.
+El visor mostrará la categoría exacta que conste en el conjunto de datos oficial y su fecha, sin reclasificar etiquetas para hacerlas coincidir con un esquema simplificado.
+3.4.2. Sistema Nacional de Areas protegidas del ecuador _SNAP_Estructura
+El sistema comprende los subsistemas estatal, autónomo descentralizado, comunitario y privado. Subsistema, categoría, zonificación y plan de manejo responden preguntas distintas: organización, figura de protección, uso interno del territorio y gestión.
+El estudiante filtrará áreas por atributos existentes, verificará su fuente y justificará diferencias organizativas y geográficas.
+3.4.3. Rol de las comunidades en la conservación
+Las comunidades pueden contribuir mediante organización territorial, monitoreo participativo, conocimientos ecológicos, educación, uso sostenible y gobernanza. No todas las comunidades poseen iguales intereses o condiciones, y su participación no debe reducirse a consulta simbólica.
+Se distinguirán las áreas del SNAP de otras medidas de conservación basadas en áreas. Se respetará la confidencialidad de ubicaciones sensibles y derechos territoriales.
+Integración SIG propuesta
+Visor SNAP y documentos de un caso comunitario público y autorizado.
+Evidencia: Estudio de caso comparativo y reflexión ética.
+Preguntas para el estudiante
+¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?
+¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?
+¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?
+Control de rigor
+No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.
+Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.
+Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.
+No representar geometrías inventadas como delimitaciones oficiales.
+Fuentes de consulta propuestas
+S06
+S07
+> Pendiente editorial: verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar.
+
+IV. Guía didáctica 01
+Guía didáctica 01: Ecuador megadiverso: factores ambientales y fauna
+Vinculación curricular: 2.1 y 2.2
+Estado: propuesta inicial para revisión docente.
+Público: quinto semestre de Pedagogía de las Ciencias Experimentales: Química y Biología.
+Tiempo sugerido: 90 minutos prácticos y trabajo autónomo de preparación/cierre.
+Objetivo
+Interpretar las relaciones entre condiciones geográficas, ecosistemas y fauna documentada del Ecuador.
+Conocimientos previos
+Comprender lectura básica de mapas, escalas, leyendas, fuentes cartográficas y conceptos relacionados con la unidad.
+Recursos y condiciones
+Mapa de regiones o relieve; ecosistemas continental cuando aplique; registros faunísticos científicamente documentados.
+La ejecución depende de disponibilidad y autorización de capas reales. Si no hay datos, NO simular resultados como reales.
+Preparación del docente
+Verificar URL y funcionamiento de capas, licencias, fechas, escalas, alcance territorial y disponibilidad del material para estudiantes. Seleccionar casos sustentados con fuentes revisables.
+Procedimiento
+Localizar tres ambientes contrastantes.
+identificar elevación y ambiente.
+documentar dos especies por ambiente con fuente.
+representar localizaciones con precisión acorde a evidencia.
+formular explicación comparativa..
+Preguntas de interpretación
+¿Qué muestran efectivamente los datos cartográficos seleccionados?
+¿Qué afirmaciones requieren pruebas ecológicas o documentales adicionales?
+¿Cómo justifica la evidencia las conclusiones del caso?
+¿Qué incertidumbres, sesgos o diferencias de escala podrían afectar la interpretación?
+Evidencia de aprendizaje
+Lámina informativa acompañada de ficha comparativa
+Evaluación — propuesta sobre diez puntos
+Interpretación geográfica sustentada: 3 puntos.
+Comprensión científica y conceptual: 3 puntos.
+Calidad del análisis, argumentación y límites: 2 puntos.
+Presentación y referencias trazables: 2 puntos.
+Adaptación e inclusión
+Proveer alternativas de acceso al mapa mediante capturas documentadas y tablas accesibles si un equipo o conexión no permite interacción. No reducir los objetivos analíticos.
+Ética, trazabilidad y seguridad
+No publicar coordenadas precisas de especies sensibles ni datos comunitarios restringidos. Citar la procedencia y fecha de capas, imágenes y registros.
+
+IV. Guía didáctica 02
+Guía didáctica 02: Flora, endemismo, cuencas y amenazas
+Vinculación curricular: 2.3 y 2.4
+Estado: propuesta inicial para revisión docente.
+Público: quinto semestre de Pedagogía de las Ciencias Experimentales: Química y Biología.
+Tiempo sugerido: 90 minutos prácticos y trabajo autónomo de preparación/cierre.
+Objetivo
+Relacionar vegetación, endemismo y sistemas hidrográficos con presiones territoriales observables, sin inferir extinciones de mapas de cobertura.
+Conocimientos previos
+Comprender lectura básica de mapas, escalas, leyendas, fuentes cartográficas y conceptos relacionados con la unidad.
+Recursos y condiciones
+Cartografía oficial de ecosistemas, hidrografía y cobertura temporal con leyendas compatibles.
+La ejecución depende de disponibilidad y autorización de capas reales. Si no hay datos, NO simular resultados como reales.
+Preparación del docente
+Verificar URL y funcionamiento de capas, licencias, fechas, escalas, alcance territorial y disponibilidad del material para estudiantes. Seleccionar casos sustentados con fuentes revisables.
+Procedimiento
+Seleccionar cuenca verificable.
+identificar ecosistemas.
+seleccionar dos plantas documentadas.
+contrastar dos años de cobertura cuando sean comparables.
+explicar amenaza posible y límites de inferencia..
+Preguntas de interpretación
+¿Qué muestran efectivamente los datos cartográficos seleccionados?
+¿Qué afirmaciones requieren pruebas ecológicas o documentales adicionales?
+¿Cómo justifica la evidencia las conclusiones del caso?
+¿Qué incertidumbres, sesgos o diferencias de escala podrían afectar la interpretación?
+Evidencia de aprendizaje
+Portafolio cartográfico con dos mapas y reflexión crítica
+Evaluación — propuesta sobre diez puntos
+Interpretación geográfica sustentada: 3 puntos.
+Comprensión científica y conceptual: 3 puntos.
+Calidad del análisis, argumentación y límites: 2 puntos.
+Presentación y referencias trazables: 2 puntos.
+Adaptación e inclusión
+Proveer alternativas de acceso al mapa mediante capturas documentadas y tablas accesibles si un equipo o conexión no permite interacción. No reducir los objetivos analíticos.
+Ética, trazabilidad y seguridad
+No publicar coordenadas precisas de especies sensibles ni datos comunitarios restringidos. Citar la procedencia y fecha de capas, imágenes y registros.
+
+IV. Guía didáctica 03
+Guía didáctica 03: SNAP: marco legal, ordenamiento y manejo
+Vinculación curricular: 3.1 y 3.2
+Estado: propuesta inicial para revisión docente.
+Público: quinto semestre de Pedagogía de las Ciencias Experimentales: Química y Biología.
+Tiempo sugerido: 90 minutos prácticos y trabajo autónomo de preparación/cierre.
+Objetivo
+Aplicar análisis jurídico-territorial y comparar estrategias de manejo en dos áreas protegidas verificables.
+Conocimientos previos
+Comprender lectura básica de mapas, escalas, leyendas, fuentes cartográficas y conceptos relacionados con la unidad.
+Recursos y condiciones
+Límites oficiales SNAP con metadatos; fuente jurídica vigente; planes de manejo disponibles.
+La ejecución depende de disponibilidad y autorización de capas reales. Si no hay datos, NO simular resultados como reales.
+Preparación del docente
+Verificar URL y funcionamiento de capas, licencias, fechas, escalas, alcance territorial y disponibilidad del material para estudiantes. Seleccionar casos sustentados con fuentes revisables.
+Procedimiento
+Localizar dos áreas.
+revisar atributos y fuentes.
+identificar sus categorías y disposiciones aplicables.
+analizar relación espacial con ecosistemas.
+estudiar una medida de gestión documentada en cada caso..
+Preguntas de interpretación
+¿Qué muestran efectivamente los datos cartográficos seleccionados?
+¿Qué afirmaciones requieren pruebas ecológicas o documentales adicionales?
+¿Cómo justifica la evidencia las conclusiones del caso?
+¿Qué incertidumbres, sesgos o diferencias de escala podrían afectar la interpretación?
+Evidencia de aprendizaje
+Informe jurídico-territorial de áreas protegidas
+Evaluación — propuesta sobre diez puntos
+Interpretación geográfica sustentada: 3 puntos.
+Comprensión científica y conceptual: 3 puntos.
+Calidad del análisis, argumentación y límites: 2 puntos.
+Presentación y referencias trazables: 2 puntos.
+Adaptación e inclusión
+Proveer alternativas de acceso al mapa mediante capturas documentadas y tablas accesibles si un equipo o conexión no permite interacción. No reducir los objetivos analíticos.
+Ética, trazabilidad y seguridad
+No publicar coordenadas precisas de especies sensibles ni datos comunitarios restringidos. Citar la procedencia y fecha de capas, imágenes y registros.
+
+IV. Guía didáctica 04
+Guía didáctica 04: Conservación in situ, ex situ y gobernanza
+Vinculación curricular: 3.3 y 3.4
+Estado: propuesta inicial para revisión docente.
+Público: quinto semestre de Pedagogía de las Ciencias Experimentales: Química y Biología.
+Tiempo sugerido: 90 minutos prácticos y trabajo autónomo de preparación/cierre.
+Objetivo
+Distinguir estrategias de conservación, organización del SNAP y participación comunitaria a partir de casos documentados.
+Conocimientos previos
+Comprender lectura básica de mapas, escalas, leyendas, fuentes cartográficas y conceptos relacionados con la unidad.
+Recursos y condiciones
+Visor de áreas protegidas y cartografía pública permitida; documentos institucionales de casos.
+La ejecución depende de disponibilidad y autorización de capas reales. Si no hay datos, NO simular resultados como reales.
+Preparación del docente
+Verificar URL y funcionamiento de capas, licencias, fechas, escalas, alcance territorial y disponibilidad del material para estudiantes. Seleccionar casos sustentados con fuentes revisables.
+Procedimiento
+Identificar caso in situ y ex situ.
+contextualizar localización sin publicar sitios sensibles.
+distinguir subsistema de categoría.
+analizar participación comunitaria.
+proponer indicador de seguimiento y reconocer límites de datos..
+Preguntas de interpretación
+¿Qué muestran efectivamente los datos cartográficos seleccionados?
+¿Qué afirmaciones requieren pruebas ecológicas o documentales adicionales?
+¿Cómo justifica la evidencia las conclusiones del caso?
+¿Qué incertidumbres, sesgos o diferencias de escala podrían afectar la interpretación?
+Evidencia de aprendizaje
+Estudio de caso con mapa de contexto y cuadro comparativo
+Evaluación — propuesta sobre diez puntos
+Interpretación geográfica sustentada: 3 puntos.
+Comprensión científica y conceptual: 3 puntos.
+Calidad del análisis, argumentación y límites: 2 puntos.
+Presentación y referencias trazables: 2 puntos.
+Adaptación e inclusión
+Proveer alternativas de acceso al mapa mediante capturas documentadas y tablas accesibles si un equipo o conexión no permite interacción. No reducir los objetivos analíticos.
+Ética, trazabilidad y seguridad
+No publicar coordenadas precisas de especies sensibles ni datos comunitarios restringidos. Citar la procedencia y fecha de capas, imágenes y registros.
+
+V. Matriz curricular — ocho temas
+Tema
+Titulo oficial
+Subtemas oficiales
+Resultado propuesto
+Actividad sig propuesta
+Evidencia propuesta
+2.1
+Diversidad de las Especies
+2.1.1 Características ambientales del Ecuador, 2.1.2 Características ambientales del Ecuador, 2.1.3 Características Generales del Ecuador
+El estudiante relacionará factores geográficos y ambientales con la diversidad ecológica, distinguiendo observación cartográfica de inferencia biológica.
+Mapa físico, elevación y cartografía oficial de ecosistemas; contraste de tres localidades ecuatorianas.
+Mapa comentado y ficha comparativa.
+2.2
+Flora y Fauna del Ecuador
+2.2.1 Fauna del Ecuador / ecosistemas, 2.2.2 Fauna del Ecuador, 2.2.3 Áreas protegidas del Ecuador
+El estudiante examinará relaciones entre fauna, ecosistemas y distribución geográfica a partir de casos y registros verificables.
+Mapa de ecosistemas, límites oficiales SNAP y fuentes biológicas documentadas.
+Lámina informativa y ficha de seis especies en tres áreas documentadas.
+2.3
+Flora y Fauna del Ecuador
+2.3.1 Flora del Ecuador Ecosistemas, 2.3.2 Especies Endemicas, 2.3.3 Manejo de cuencas hídricas en el Ecuador
+El estudiante explicará flora, endemismo y cuencas a partir de relaciones espaciales ecológicamente fundamentadas.
+Mapa de ecosistemas, hidrografía, elevación, fichas científicas de plantas.
+Informe cartográfico de una cuenca y dos taxones documentados.
+2.4
+Extinción de las Especies
+2.4.1 Extinción de las especies, 2.4.2 Amenazas para la perdida de la Biodiversidad, 2.4.3 Amenazas para la perdida de la Biodiversidad
+El estudiante distinguirá riesgo de extinción, transformación territorial y presiones ambientales mediante evidencia trazable.
+Mapas temporales de cobertura, registros biológicos y ficha UICN cuando esté disponible.
+Portafolio con interpretación de cambios y advertencias metodológicas.
+3.1
+Ámbito legal y normativa ecuatoriana
+3.1.1 Tratamiento constitucional de la diversidad biológica, 3.1.2 Instrumentos Internacionales, 3.1.3 Desarrollo Normativo de diversidad biológica
+El estudiante interpretará fundamentos legales aplicables a la conservación, sin utilizar el SIG como sustituto de análisis jurídico.
+Cartografía oficial de un área protegida y documentos normativos vigentes.
+Ficha de análisis jurídico-territorial.
+3.2
+Sistema Nacional de Áreas Protegidas
+3.2.1 Ordenamiento territorial, 3.2.2 Estrategias de manejo y conservación, 3.2.3 Estrategias de manejo y conservación
+El estudiante analizará relaciones espaciales de protección y manejo diferenciando cartografía, gestión y resultados ecológicos.
+Límites oficiales SNAP, ecosistemas y cobertura, planes de manejo disponibles.
+Informe cartográfico comparativo de dos áreas.
+3.3
+Extinción de especies en el Ecuador
+3.3.1 Conservación - in situ, 3.3.2 Conservación - ex situ, 3.3.3 Herramientas de Conservación
+El estudiante comparará conservación in situ y ex situ y justificará herramientas apropiadas para casos reales.
+Cartografía contextual y documentación institucional de un caso de conservación.
+Estudio de caso comparativo.
+3.4
+Estrategias y manejo de conservación en el Ecuador
+3.4.1 Sistema Nacional de Areas protegidas en el Ecuador (SNAP)_Clasificacion, 3.4.2 Sistema Nacional de Areas protegidas del ecuador _SNAP_Estructura, 3.4.3 Rol de las comunidades en la conservación
+El estudiante distinguirá clasificación, estructura y participación comunitaria en estudios de caso territorialmente documentados.
+Visor SNAP y documentos de un caso comunitario público y autorizado.
+Estudio de caso comparativo y reflexión ética.
+Filas de datos incluidas: 8. Se han conservado todos los campos del archivo original.
+
+VI. Registro de fuentes y verificaciones
+Id
+Institucion
+Recurso
+Url
+Verificacion pendiente
+S01
+Convenio sobre la Diversidad Biológica
+Perfil de Ecuador
+https://www.cbd.int/countries/profile?country=ec
+Consulta institucional; su propio texto de perfil advierte estado de borrador en algunos apartados
+S02
+Sistema Nacional de Monitoreo de Bosques
+Monitoreo de condiciones de ecosistemas terrestres
+https://snmb.ambiente.gob.ec/snmb/?page_id=721
+Fuente oficial de cartografía de ecosistemas; comprobar acceso y condiciones para reutilización
+S03
+Sistema Nacional de Monitoreo de Bosques
+Monitoreo de carbono y estratos forestales
+https://snmb.ambiente.gob.ec/snmb/?page_id=719
+Fuente de estratos forestales y productos cartográficos
+S04
+MapBiomas Ecuador
+Cobertura y uso de la tierra
+https://ecuador.mapbiomas.org/
+Revisar metodología de la colección y licencia antes de integrar
+S05
+Constitución de la República del Ecuador
+Texto consolidado vigente
+https://www.asambleanacional.gob.ec/
+Portal institucional; buscar texto consolidado vigente para artículos citados
+S06
+Asamblea Nacional del Ecuador
+Código Orgánico del Ambiente
+https://www.asambleanacional.gob.ec/sites/default/files/private/asambleanacional/filesasambleanacionalnameuid-28/Codigo-Organico-Ambiente.pdf
+Texto de referencia; corroborar reformas y versión vigente
+S07
+Secretaría del CDB
+Marco Mundial Kunming-Montreal
+https://www.cbd.int/gbf
+Documento oficial internacional
+S08
+Dirección del Parque Nacional Galápagos
+Programas de conservación
+https://galapagos.gob.ec/
+Seleccionar documentos del caso y comprobar páginas específicas
+Filas de datos incluidas: 8. Se han conservado todos los campos del archivo original.
+
+VII. Control de revisión editorial
+Control de calidad antes de subir a BIOSIG
+[ ] Contrastar cada uno de los 24 títulos con el sílabo, sin ocultar repeticiones.
+[ ] Contrastar cada resultado de aprendizaje con el sílabo y distinguir adaptaciones propuestas.
+[ ] Sustituir referencias generales por referencias completas en APA 7 y enlaces estables.
+[ ] Incorporar citas junto a cada afirmación que lo necesite.
+[ ] Verificar legislación con versiones oficiales consolidadas y fecha de consulta.
+[ ] Comprobar que ninguna cifra actual del SNAP se asuma de modo permanente.
+[ ] Confirmar nombres científicos y nombres geográficos de los casos antes de publicarlos.
+[ ] Verificar licencias y fechas de capas geográficas, imágenes y gráficos.
+[ ] Evitar coordenadas precisas de especies amenazadas y datos comunitarios sensibles.
+[ ] Revisar coherencia entre objetivos, actividades, productos y rúbricas.
+[ ] Obtener revisión académica del tutor/docente.
+[ ] Comprobar accesibilidad, navegación móvil y lectura de contenidos largos.
+Importante: los ocho archivos de temas son borradores condensados, no el desarrollo íntegro final de cada tema. Codex no debe completarlos automáticamente inventando detalles ni fuentes.
+
+VIII. Instrucciones de integración para Codex
+Prompt para Codex — usar después de la aprobación del paquete
+Trabaja exclusivamente sobre la versión nueva de BIOSIG 2.0 que se encuentre seleccionada en el proyecto, nunca sobre el código previo proporcionado únicamente como material informativo. No copies ni reutilices componentes de aquel código.
+Tengo un paquete académico organizado en Markdown y CSV. Los archivos contienen ocho borradores temáticos, cuatro guías propuestas, matriz curricular y un inventario de fuentes.
+PRIMERA TAREA: auditar cómo el proyecto actual almacena contenidos, proponer una integración ordenada sin modificar funcionalidades existentes, y presentar un plan de navegación por unidades, temas, subtemas y guías. NO IMPLEMENTAR antes de que apruebe la propuesta.
+CONDICIONES:
+Preservar títulos oficiales del sílabo; no atribuirle subtítulos interpretativos.
+No resumir los textos ni inventar datos, citas, números, fechas o geometrías.
+Mostrar bibliografía verificable y estado editorial de los borradores.
+Conectar guía ↔ tema ↔ actividad SIG sin crear funcionalidades ficticias.
+No implementar Google Earth Engine en esta fase.
+Mantener el diseño híbrido ya establecido para BIOSIG 2.0.
+Utilizar una rama nueva; no fusionar ni publicar cambios automáticamente.
+Documentar archivos afectados y plan de pruebas antes de solicitar autorización.

@@ -1,0 +1,1024 @@
+{
+  "topics": [
+    {
+      "title": "Diversidad de las Especies",
+      "metadataMarkdown": "**Unidad:** 2 | **Estado:** borrador didáctico para revisión, NO publicación automática\n**Base curricular:** Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.\n**Alcance:** la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.",
+      "sections": [
+        {
+          "id": "proposito-formativo",
+          "title": "Propósito formativo",
+          "markdown": "El estudiante relacionará factores geográficos y ambientales con la diversidad ecológica, distinguiendo observación cartográfica de inferencia biológica."
+        },
+        {
+          "id": "desarrollo-por-subtemas",
+          "title": "Desarrollo por subtemas",
+          "markdown": "### 2.1.1. Características ambientales del Ecuador\nEl Ecuador presenta una notable heterogeneidad ambiental por la interacción de su posición ecuatorial, los Andes, las corrientes oceánicas y su historia geológica. El relieve configura barreras y corredores, origina fuertes contrastes altitudinales y contribuye a que los ambientes se distribuyan de forma desigual. Una región natural no corresponde a un único ecosistema: el litoral, por ejemplo, contiene manglares, bosques secos y sectores de bosque húmedo.\n\nPara estudiar estas relaciones se requieren mapas físicos, modelos de elevación y una clasificación cartográfica de ecosistemas. La interpretación deberá considerar la escala y fecha de cada capa. Una imagen de satélite permite observar patrones de superficie, pero por sí sola no identifica con certeza toda la flora y fauna de un sitio.\n\n### 2.1.2. Características ambientales del Ecuador\nLa temperatura y la precipitación influyen sobre la distribución de organismos, aunque su efecto depende también de los suelos, las interacciones biológicas y la historia de cada población. Dos localidades de altitud semejante pueden diferir sustancialmente en humedad debido a exposición de laderas, vientos y circulación de masas de aire.\n\nEn BIOSIG se propondrá comparar localidades a partir de elevación y datos climáticos con unidades y periodos explícitos. No se atribuirán valores climáticos estimados a ubicaciones que carezcan de registros o capas fiables. Los patrones de riqueza de especies tampoco deben simplificarse como una disminución uniforme con la altitud.\n\n### 2.1.3. Características Generales del Ecuador\nSe distinguen las regiones Costa, Sierra, Amazonía e Insular. Esta regionalización proporciona una referencia pedagógica para organizar contrastes ambientales, pero cada región reúne múltiples ecosistemas. En Galápagos, el aislamiento, los procesos volcánicos y la conexión oceánica condicionan la composición biológica; en la Sierra, el gradiente andino organiza distintos ambientes de montaña.\n\nUn estudiante debe localizar las regiones, describir sus diferencias y explicar por qué el relieve, el clima y la geografía contribuyen a la megadiversidad. La evidencia será un mapa comentado, no una enumeración de regiones sin interpretación."
+        },
+        {
+          "id": "integracion-sig-propuesta",
+          "title": "Integración SIG propuesta",
+          "markdown": "Mapa físico, elevación y cartografía oficial de ecosistemas; contraste de tres localidades ecuatorianas.\n\n**Evidencia:** Mapa comentado y ficha comparativa."
+        },
+        {
+          "id": "preguntas-para-el-estudiante",
+          "title": "Preguntas para el estudiante",
+          "markdown": "1. ¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?\n2. ¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?\n3. ¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?"
+        },
+        {
+          "id": "control-de-rigor",
+          "title": "Control de rigor",
+          "markdown": "- No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.\n- Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.\n- Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.\n- No representar geometrías inventadas como delimitaciones oficiales."
+        },
+        {
+          "id": "fuentes-de-consulta-propuestas",
+          "title": "Fuentes de consulta propuestas",
+          "markdown": "- S01\n- S02\n\n> **Pendiente editorial:** verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar."
+        }
+      ],
+      "id": "2.1",
+      "unitId": "2",
+      "sourceFile": "unidad-2/tema-2-1.md",
+      "subtopics": [
+        {
+          "id": "2.1.1",
+          "title": "Características ambientales del Ecuador",
+          "differentiation": "Enfoque didáctico: relieve, posición geográfica y heterogeneidad ambiental."
+        },
+        {
+          "id": "2.1.2",
+          "title": "Características ambientales del Ecuador",
+          "differentiation": "Enfoque didáctico: clima, humedad y límites de la interpretación altitudinal."
+        },
+        {
+          "id": "2.1.3",
+          "title": "Características Generales del Ecuador",
+          "differentiation": null
+        }
+      ],
+      "referenceIds": [
+        "S01",
+        "S02"
+      ],
+      "objective": "El estudiante relacionará factores geográficos y ambientales con la diversidad ecológica, distinguiendo observación cartográfica de inferencia biológica.",
+      "activity": {
+        "description": "Mapa físico, elevación y cartografía oficial de ecosistemas; contraste de tres localidades ecuatorianas.",
+        "evidence": {
+          "description": "Mapa comentado y ficha comparativa."
+        },
+        "status": "pending"
+      }
+    },
+    {
+      "title": "Flora y Fauna del Ecuador",
+      "metadataMarkdown": "**Unidad:** 2 | **Estado:** borrador didáctico para revisión, NO publicación automática\n**Base curricular:** Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.\n**Alcance:** la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.",
+      "sections": [
+        {
+          "id": "proposito-formativo",
+          "title": "Propósito formativo",
+          "markdown": "El estudiante examinará relaciones entre fauna, ecosistemas y distribución geográfica a partir de casos y registros verificables."
+        },
+        {
+          "id": "desarrollo-por-subtemas",
+          "title": "Desarrollo por subtemas",
+          "markdown": "### 2.2.1. Fauna del Ecuador / ecosistemas\nLa fauna ocupa hábitats diferentes según disponibilidad de recursos, temperatura, humedad, refugio y posibilidades de reproducción. El jaguar puede servir como caso de grandes mamíferos de bosques tropicales; el oso andino, de relaciones entre bosques montanos y otros ambientes andinos; las iguanas marinas, de adaptación insular. Estas referencias no autorizan a inferir su presencia en toda la región.\n\nSe distinguirán hábitat, nicho ecológico y distribución geográfica. Los puntos de registros biológicos reflejan lugares documentados con cierto esfuerzo de muestreo; la ausencia de puntos no demuestra ausencia de organismos.\n\n### 2.2.2. Fauna del Ecuador\nLa fauna ecuatoriana incluye mamíferos, aves, anfibios, reptiles, peces y numerosos grupos de invertebrados. Los grupos difieren en necesidades ecológicas, mecanismos de dispersión y sensibilidad a alteraciones del ambiente. Su comparación puede revelar asociaciones entre rasgos biológicos y gradientes ambientales.\n\nLas fichas incluirán nombre científico, fuentes taxonómicas, hábitat documentado, distribución representada con la incertidumbre adecuada y, solo cuando exista una evaluación identificable, categoría de conservación fechada. No se utilizarán cifras nacionales de especies sin corte temporal y fuente.\n\n### 2.2.3. Áreas protegidas del Ecuador\nLas áreas protegidas son instrumentos territoriales de conservación que contribuyen a resguardar ecosistemas y hábitats. En esta unidad se introducirán como contexto biogeográfico de la fauna, dejando para la Unidad 3 su estructura jurídica, subsistemas y estrategias de manejo.\n\nEl estudiante seleccionará áreas en ambientes contrastantes y buscará especies registradas allí mediante fuentes científicas. Un límite protegido no demuestra por sí solo eficacia de conservación ni estabilidad de sus poblaciones."
+        },
+        {
+          "id": "integracion-sig-propuesta",
+          "title": "Integración SIG propuesta",
+          "markdown": "Mapa de ecosistemas, límites oficiales SNAP y fuentes biológicas documentadas.\n\n**Evidencia:** Lámina informativa y ficha de seis especies en tres áreas documentadas."
+        },
+        {
+          "id": "preguntas-para-el-estudiante",
+          "title": "Preguntas para el estudiante",
+          "markdown": "1. ¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?\n2. ¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?\n3. ¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?"
+        },
+        {
+          "id": "control-de-rigor",
+          "title": "Control de rigor",
+          "markdown": "- No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.\n- Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.\n- Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.\n- No representar geometrías inventadas como delimitaciones oficiales."
+        },
+        {
+          "id": "fuentes-de-consulta-propuestas",
+          "title": "Fuentes de consulta propuestas",
+          "markdown": "- S01\n- S02\n\n> **Pendiente editorial:** verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar."
+        }
+      ],
+      "id": "2.2",
+      "unitId": "2",
+      "sourceFile": "unidad-2/tema-2-2.md",
+      "subtopics": [
+        {
+          "id": "2.2.1",
+          "title": "Fauna del Ecuador / ecosistemas",
+          "differentiation": null
+        },
+        {
+          "id": "2.2.2",
+          "title": "Fauna del Ecuador",
+          "differentiation": null
+        },
+        {
+          "id": "2.2.3",
+          "title": "Áreas protegidas del Ecuador",
+          "differentiation": null
+        }
+      ],
+      "referenceIds": [
+        "S01",
+        "S02"
+      ],
+      "objective": "El estudiante examinará relaciones entre fauna, ecosistemas y distribución geográfica a partir de casos y registros verificables.",
+      "activity": {
+        "description": "Mapa de ecosistemas, límites oficiales SNAP y fuentes biológicas documentadas.",
+        "evidence": {
+          "description": "Lámina informativa y ficha de seis especies en tres áreas documentadas."
+        },
+        "status": "pending"
+      }
+    },
+    {
+      "title": "Flora y Fauna del Ecuador",
+      "metadataMarkdown": "**Unidad:** 2 | **Estado:** borrador didáctico para revisión, NO publicación automática\n**Base curricular:** Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.\n**Alcance:** la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.",
+      "sections": [
+        {
+          "id": "proposito-formativo",
+          "title": "Propósito formativo",
+          "markdown": "El estudiante explicará flora, endemismo y cuencas a partir de relaciones espaciales ecológicamente fundamentadas."
+        },
+        {
+          "id": "desarrollo-por-subtemas",
+          "title": "Desarrollo por subtemas",
+          "markdown": "### 2.3.1. Flora del Ecuador Ecosistemas\nLa flora comprende taxones vegetales presentes en un territorio; la vegetación describe comunidades y su estructura; un ecosistema incorpora además el ambiente y las interacciones. Ecuador contiene bosques tropicales, formaciones andinas, páramos, bosques secos y manglares con especies y funciones diferentes. La composición depende de relieve, humedad, suelos y otros factores.\n\nLos mapas de vegetación no identifican automáticamente especies individuales. BIOSIG enlazará una capa oficial de ecosistemas con fichas de flora representativa que citen inventarios o estudios; no extrapolará listados locales a toda una región.\n\n### 2.3.2. Especies Endemicas\nUna especie endémica posee distribución natural restringida a un territorio definido; el término depende de la escala de referencia. Es diferente de nativa y de amenazada: una especie puede ser endémica sin estar clasificada en riesgo y viceversa. Los factores históricos y geográficos ayudan a explicar áreas de distribución restringida.\n\nLa práctica contrastará distribuciones documentadas con áreas de conservación. Si una especie es sensible a colecta o perturbación, los registros espaciales se mostrarán generalizados; los puntos de observación no equivalen a límites de distribución potencial.\n\n### 2.3.3. Manejo de cuencas hídricas en el Ecuador\nUna cuenca es un territorio cuyo drenaje converge hacia una salida o sistema fluvial. La vegetación, los suelos, el relieve y las actividades humanas interactúan sobre infiltración, escorrentía, erosión y calidad de agua. No debe presumirse que plantar árboles aumente el caudal; los resultados dependen de especies, suelo, clima y manejo.\n\nSe propondrá superponer límites hidrográficos documentados con elevación, ecosistemas y coberturas. Una relación espacial sugiere preguntas de investigación, pero establecer impactos hídricos requiere observaciones y metodologías específicas."
+        },
+        {
+          "id": "integracion-sig-propuesta",
+          "title": "Integración SIG propuesta",
+          "markdown": "Mapa de ecosistemas, hidrografía, elevación, fichas científicas de plantas.\n\n**Evidencia:** Informe cartográfico de una cuenca y dos taxones documentados."
+        },
+        {
+          "id": "preguntas-para-el-estudiante",
+          "title": "Preguntas para el estudiante",
+          "markdown": "1. ¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?\n2. ¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?\n3. ¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?"
+        },
+        {
+          "id": "control-de-rigor",
+          "title": "Control de rigor",
+          "markdown": "- No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.\n- Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.\n- Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.\n- No representar geometrías inventadas como delimitaciones oficiales."
+        },
+        {
+          "id": "fuentes-de-consulta-propuestas",
+          "title": "Fuentes de consulta propuestas",
+          "markdown": "- S02\n- S03\n\n> **Pendiente editorial:** verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar."
+        }
+      ],
+      "id": "2.3",
+      "unitId": "2",
+      "sourceFile": "unidad-2/tema-2-3.md",
+      "subtopics": [
+        {
+          "id": "2.3.1",
+          "title": "Flora del Ecuador Ecosistemas",
+          "differentiation": null
+        },
+        {
+          "id": "2.3.2",
+          "title": "Especies Endemicas",
+          "differentiation": null
+        },
+        {
+          "id": "2.3.3",
+          "title": "Manejo de cuencas hídricas en el Ecuador",
+          "differentiation": null
+        }
+      ],
+      "referenceIds": [
+        "S02",
+        "S03"
+      ],
+      "objective": "El estudiante explicará flora, endemismo y cuencas a partir de relaciones espaciales ecológicamente fundamentadas.",
+      "activity": {
+        "description": "Mapa de ecosistemas, hidrografía, elevación, fichas científicas de plantas.",
+        "evidence": {
+          "description": "Informe cartográfico de una cuenca y dos taxones documentados."
+        },
+        "status": "pending"
+      }
+    },
+    {
+      "title": "Extinción de las Especies",
+      "metadataMarkdown": "**Unidad:** 2 | **Estado:** borrador didáctico para revisión, NO publicación automática\n**Base curricular:** Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.\n**Alcance:** la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.",
+      "sections": [
+        {
+          "id": "proposito-formativo",
+          "title": "Propósito formativo",
+          "markdown": "El estudiante distinguirá riesgo de extinción, transformación territorial y presiones ambientales mediante evidencia trazable."
+        },
+        {
+          "id": "desarrollo-por-subtemas",
+          "title": "Desarrollo por subtemas",
+          "markdown": "### 2.4.1. Extinción de las especies\nExtinción global significa desaparición de todos los individuos de una especie; extinción local significa desaparición en un territorio determinado. La disminución de registros puede deberse a menor esfuerzo de muestreo y no prueba extinción. Las categorías de la Lista Roja de UICN clasifican riesgo con criterios específicos y fecha de evaluación.\n\nLas categorías Vulnerable, En Peligro y En Peligro Crítico son las categorías de especies amenazadas. En BIOSIG la categoría se citará con su fuente, alcance y año; nunca se estimará solo a partir de un mapa.\n\n### 2.4.2. Amenazas para la perdida de la Biodiversidad\nDeforestación, conversión de coberturas y fragmentación pueden reducir la disponibilidad y conectividad de hábitats. Deforestación y degradación son procesos distintos: puede haber pérdida de calidad ecológica sin desaparición cartográfica del bosque. Los impactos biológicos varían entre especies y paisajes.\n\nMediante mapas temporales comparables se distinguirán cambios de cobertura, fragmentación estructural y efectos poblacionales no demostrados. Una diferencia de clase cartográfica no autoriza a concluir que una especie se extinguió.\n\n### 2.4.3. Amenazas para la perdida de la Biodiversidad\nOtras presiones incluyen sobreexplotación, contaminación, introducción de especies invasoras y cambio climático. No toda especie introducida es invasora. Asimismo, la proximidad de una actividad económica no demuestra contaminación: se necesitan mediciones y causalidad documentada.\n\nUna actividad comparará un territorio continental sometido a cambios de cobertura y un caso insular sobre especies introducidas. Se explicitarán los límites de la teledetección para detectar amenazas biológicas."
+        },
+        {
+          "id": "integracion-sig-propuesta",
+          "title": "Integración SIG propuesta",
+          "markdown": "Mapas temporales de cobertura, registros biológicos y ficha UICN cuando esté disponible.\n\n**Evidencia:** Portafolio con interpretación de cambios y advertencias metodológicas."
+        },
+        {
+          "id": "preguntas-para-el-estudiante",
+          "title": "Preguntas para el estudiante",
+          "markdown": "1. ¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?\n2. ¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?\n3. ¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?"
+        },
+        {
+          "id": "control-de-rigor",
+          "title": "Control de rigor",
+          "markdown": "- No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.\n- Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.\n- Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.\n- No representar geometrías inventadas como delimitaciones oficiales."
+        },
+        {
+          "id": "fuentes-de-consulta-propuestas",
+          "title": "Fuentes de consulta propuestas",
+          "markdown": "- S02\n- S04\n\n> **Pendiente editorial:** verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar."
+        }
+      ],
+      "id": "2.4",
+      "unitId": "2",
+      "sourceFile": "unidad-2/tema-2-4.md",
+      "subtopics": [
+        {
+          "id": "2.4.1",
+          "title": "Extinción de las especies",
+          "differentiation": null
+        },
+        {
+          "id": "2.4.2",
+          "title": "Amenazas para la perdida de la Biodiversidad",
+          "differentiation": "Enfoque didáctico: transformación de coberturas, degradación y fragmentación."
+        },
+        {
+          "id": "2.4.3",
+          "title": "Amenazas para la perdida de la Biodiversidad",
+          "differentiation": "Enfoque didáctico: otras presiones y límites de la inferencia cartográfica."
+        }
+      ],
+      "referenceIds": [
+        "S02",
+        "S04"
+      ],
+      "objective": "El estudiante distinguirá riesgo de extinción, transformación territorial y presiones ambientales mediante evidencia trazable.",
+      "activity": {
+        "description": "Mapas temporales de cobertura, registros biológicos y ficha UICN cuando esté disponible.",
+        "evidence": {
+          "description": "Portafolio con interpretación de cambios y advertencias metodológicas."
+        },
+        "status": "pending"
+      }
+    },
+    {
+      "title": "Ámbito legal y normativa ecuatoriana",
+      "metadataMarkdown": "**Unidad:** 3 | **Estado:** borrador didáctico para revisión, NO publicación automática\n**Base curricular:** Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.\n**Alcance:** la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.",
+      "sections": [
+        {
+          "id": "proposito-formativo",
+          "title": "Propósito formativo",
+          "markdown": "El estudiante interpretará fundamentos legales aplicables a la conservación, sin utilizar el SIG como sustituto de análisis jurídico."
+        },
+        {
+          "id": "desarrollo-por-subtemas",
+          "title": "Desarrollo por subtemas",
+          "markdown": "### 3.1.1. Tratamiento constitucional de la diversidad biológica\nLa Constitución de 2008 reconoce derechos de la naturaleza, incluidos respeto de ciclos y procesos ecológicos y restauración, y establece responsabilidades sobre biodiversidad y áreas protegidas. Los artículos 71–73, 400 y 405 son puntos de consulta relevantes; antes de publicarlos deben revisarse en un texto consolidado vigente.\n\nEn BIOSIG el estudiante vinculará normas con un caso territorial sin confundir una relación geográfica con una conclusión jurídica. Se identificarán norma, artículo y fecha de consulta.\n\n### 3.1.2. Instrumentos Internacionales\nEl Convenio sobre la Diversidad Biológica aborda conservación, uso sostenible y participación justa en beneficios de recursos genéticos. También son relevantes el Marco Mundial Kunming-Montreal y la Convención sobre los Humedales. Su estudio permitirá interpretar compromisos y gobernanza, sin afirmar automáticamente su cumplimiento en territorios particulares.\n\nLa práctica incluirá un instrumento internacional aplicado a un caso con cartografía pertinente, por ejemplo humedales; se distinguirá un sitio Ramsar de una categoría administrativa del SNAP.\n\n### 3.1.3. Desarrollo Normativo de diversidad biológica\nEl Código Orgánico del Ambiente y su Reglamento organizan materias de conservación y manejo. El SNAP comprende subsistemas estatal, autónomo descentralizado, comunitario y privado según el artículo 37 del COA. Se debe diferenciar el marco normativo general de cada declaratoria y plan de manejo.\n\nLa versión normativa deberá revisarse antes de publicar; no se usará un documento de años anteriores como garantía automática de vigencia actual. La actividad será una ficha jurídico-territorial documentada."
+        },
+        {
+          "id": "integracion-sig-propuesta",
+          "title": "Integración SIG propuesta",
+          "markdown": "Cartografía oficial de un área protegida y documentos normativos vigentes.\n\n**Evidencia:** Ficha de análisis jurídico-territorial."
+        },
+        {
+          "id": "preguntas-para-el-estudiante",
+          "title": "Preguntas para el estudiante",
+          "markdown": "1. ¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?\n2. ¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?\n3. ¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?"
+        },
+        {
+          "id": "control-de-rigor",
+          "title": "Control de rigor",
+          "markdown": "- No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.\n- Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.\n- Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.\n- No representar geometrías inventadas como delimitaciones oficiales."
+        },
+        {
+          "id": "fuentes-de-consulta-propuestas",
+          "title": "Fuentes de consulta propuestas",
+          "markdown": "- S05\n- S06\n- S07\n\n> **Pendiente editorial:** verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar."
+        }
+      ],
+      "id": "3.1",
+      "unitId": "3",
+      "sourceFile": "unidad-3/tema-3-1.md",
+      "subtopics": [
+        {
+          "id": "3.1.1",
+          "title": "Tratamiento constitucional de la diversidad biológica",
+          "differentiation": null
+        },
+        {
+          "id": "3.1.2",
+          "title": "Instrumentos Internacionales",
+          "differentiation": null
+        },
+        {
+          "id": "3.1.3",
+          "title": "Desarrollo Normativo de diversidad biológica",
+          "differentiation": null
+        }
+      ],
+      "referenceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "objective": "El estudiante interpretará fundamentos legales aplicables a la conservación, sin utilizar el SIG como sustituto de análisis jurídico.",
+      "activity": {
+        "description": "Cartografía oficial de un área protegida y documentos normativos vigentes.",
+        "evidence": {
+          "description": "Ficha de análisis jurídico-territorial."
+        },
+        "status": "pending"
+      }
+    },
+    {
+      "title": "Sistema Nacional de Áreas Protegidas",
+      "metadataMarkdown": "**Unidad:** 3 | **Estado:** borrador didáctico para revisión, NO publicación automática\n**Base curricular:** Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.\n**Alcance:** la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.",
+      "sections": [
+        {
+          "id": "proposito-formativo",
+          "title": "Propósito formativo",
+          "markdown": "El estudiante analizará relaciones espaciales de protección y manejo diferenciando cartografía, gestión y resultados ecológicos."
+        },
+        {
+          "id": "desarrollo-por-subtemas",
+          "title": "Desarrollo por subtemas",
+          "markdown": "### 3.2.1. Ordenamiento territorial\nEl ordenamiento territorial busca organizar usos y decisiones sobre espacios atendiendo a características ambientales y sociales. Para conservar biodiversidad importan la localización de áreas protegidas, el entorno de cuencas, las coberturas, infraestructura y potenciales corredores ecológicos. La superposición espacial permite identificar coincidencias, no impactos causales por sí sola.\n\nBIOSIG exigirá identificar fecha, escala, sistema de referencia y procedencia de capas. La zonificación de un área se representará solo si existe mapa oficial de su plan de manejo.\n\n### 3.2.2. Estrategias de manejo y conservación\nEl manejo requiere diagnóstico, objetivos, planes, acciones e indicadores. La vigilancia, restauración ecológica, educación, investigación y participación pueden integrarse en estrategias adaptadas a cada territorio. Una medida aplicada no equivale automáticamente a un resultado efectivo para las especies.\n\nLos estudiantes compararán medidas de manejo descritas en dos documentos institucionales y examinarán sus dimensiones espaciales.\n\n### 3.2.3. Estrategias de manejo y conservación\nEl monitoreo sistemático permite documentar cambios en indicadores ecológicos y operativos. Cobertura vegetal, registros de fauna y reportes de vigilancia son evidencias diferentes. Comparaciones temporales requieren periodos, clasificaciones y metodologías compatibles.\n\nLa actividad distinguirá cambio de cobertura, fragmentación estructural y evidencia directa de poblaciones. Se valorará explicitar límites de los datos."
+        },
+        {
+          "id": "integracion-sig-propuesta",
+          "title": "Integración SIG propuesta",
+          "markdown": "Límites oficiales SNAP, ecosistemas y cobertura, planes de manejo disponibles.\n\n**Evidencia:** Informe cartográfico comparativo de dos áreas."
+        },
+        {
+          "id": "preguntas-para-el-estudiante",
+          "title": "Preguntas para el estudiante",
+          "markdown": "1. ¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?\n2. ¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?\n3. ¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?"
+        },
+        {
+          "id": "control-de-rigor",
+          "title": "Control de rigor",
+          "markdown": "- No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.\n- Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.\n- Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.\n- No representar geometrías inventadas como delimitaciones oficiales."
+        },
+        {
+          "id": "fuentes-de-consulta-propuestas",
+          "title": "Fuentes de consulta propuestas",
+          "markdown": "- S03\n- S06\n\n> **Pendiente editorial:** verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar."
+        }
+      ],
+      "id": "3.2",
+      "unitId": "3",
+      "sourceFile": "unidad-3/tema-3-2.md",
+      "subtopics": [
+        {
+          "id": "3.2.1",
+          "title": "Ordenamiento territorial",
+          "differentiation": null
+        },
+        {
+          "id": "3.2.2",
+          "title": "Estrategias de manejo y conservación",
+          "differentiation": "Enfoque didáctico: planificación y medidas de manejo."
+        },
+        {
+          "id": "3.2.3",
+          "title": "Estrategias de manejo y conservación",
+          "differentiation": "Enfoque didáctico: monitoreo, indicadores y comparabilidad temporal."
+        }
+      ],
+      "referenceIds": [
+        "S03",
+        "S06"
+      ],
+      "objective": "El estudiante analizará relaciones espaciales de protección y manejo diferenciando cartografía, gestión y resultados ecológicos.",
+      "activity": {
+        "description": "Límites oficiales SNAP, ecosistemas y cobertura, planes de manejo disponibles.",
+        "evidence": {
+          "description": "Informe cartográfico comparativo de dos áreas."
+        },
+        "status": "pending"
+      }
+    },
+    {
+      "title": "Extinción de especies en el Ecuador",
+      "metadataMarkdown": "**Unidad:** 3 | **Estado:** borrador didáctico para revisión, NO publicación automática\n**Base curricular:** Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.\n**Alcance:** la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.",
+      "sections": [
+        {
+          "id": "proposito-formativo",
+          "title": "Propósito formativo",
+          "markdown": "El estudiante comparará conservación in situ y ex situ y justificará herramientas apropiadas para casos reales."
+        },
+        {
+          "id": "desarrollo-por-subtemas",
+          "title": "Desarrollo por subtemas",
+          "markdown": "### 3.3.1. Conservación - in situ\nLa conservación in situ mantiene componentes de biodiversidad en sus ambientes naturales y puede proteger redes ecológicas y procesos evolutivos. No se limita a parques nacionales: otros territorios y paisajes de conservación pueden ser pertinentes. Su eficacia depende de presiones, manejo y seguimiento.\n\nCon SIG se analizarán áreas de conservación y coincidencias con ecosistemas o registros; la existencia de protección legal no demuestra resultados poblacionales.\n\n### 3.3.2. Conservación - ex situ\nLa conservación ex situ preserva organismos o material biológico fuera de su ambiente original, como en bancos de germoplasma, jardines botánicos y centros de reproducción. Puede complementar programas in situ, pero presenta requisitos sanitarios, genéticos y financieros. Una liberación requiere evaluación y monitoreo posteriores.\n\nBIOSIG contextualizará geográficamente un programa documentado sin reducir el aprendizaje a un mapa: el análisis biológico incluye genética, reproducción, adaptación y viabilidad.\n\n### 3.3.3. Herramientas de Conservación\nEl conjunto de herramientas incluye inventarios, genética de conservación, monitoreo, restauración, áreas protegidas, educación ambiental y herramientas espaciales. Los SIG representan y analizan componentes geográficos, pero no sustituyen métodos biológicos ni autorizaciones de manejo.\n\nLa evidencia será una propuesta argumentada de herramientas para un caso, justificando cuáles necesitan datos espaciales y cuáles requieren investigación de campo o laboratorio."
+        },
+        {
+          "id": "integracion-sig-propuesta",
+          "title": "Integración SIG propuesta",
+          "markdown": "Cartografía contextual y documentación institucional de un caso de conservación.\n\n**Evidencia:** Estudio de caso comparativo."
+        },
+        {
+          "id": "preguntas-para-el-estudiante",
+          "title": "Preguntas para el estudiante",
+          "markdown": "1. ¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?\n2. ¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?\n3. ¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?"
+        },
+        {
+          "id": "control-de-rigor",
+          "title": "Control de rigor",
+          "markdown": "- No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.\n- Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.\n- Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.\n- No representar geometrías inventadas como delimitaciones oficiales."
+        },
+        {
+          "id": "fuentes-de-consulta-propuestas",
+          "title": "Fuentes de consulta propuestas",
+          "markdown": "- S06\n- S08\n\n> **Pendiente editorial:** verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar."
+        }
+      ],
+      "id": "3.3",
+      "unitId": "3",
+      "sourceFile": "unidad-3/tema-3-3.md",
+      "subtopics": [
+        {
+          "id": "3.3.1",
+          "title": "Conservación - in situ",
+          "differentiation": null
+        },
+        {
+          "id": "3.3.2",
+          "title": "Conservación - ex situ",
+          "differentiation": null
+        },
+        {
+          "id": "3.3.3",
+          "title": "Herramientas de Conservación",
+          "differentiation": null
+        }
+      ],
+      "referenceIds": [
+        "S06",
+        "S08"
+      ],
+      "objective": "El estudiante comparará conservación in situ y ex situ y justificará herramientas apropiadas para casos reales.",
+      "activity": {
+        "description": "Cartografía contextual y documentación institucional de un caso de conservación.",
+        "evidence": {
+          "description": "Estudio de caso comparativo."
+        },
+        "status": "pending"
+      }
+    },
+    {
+      "title": "Estrategias y manejo de conservación en el Ecuador",
+      "metadataMarkdown": "**Unidad:** 3 | **Estado:** borrador didáctico para revisión, NO publicación automática\n**Base curricular:** Sí­labo de Biodiversidad del Ecuador (UNACH), 2025-1S; numeración y títulos preservados.\n**Alcance:** la elaboración que sigue es ampliación pedagógica, no transcripción del sílabo.",
+      "sections": [
+        {
+          "id": "proposito-formativo",
+          "title": "Propósito formativo",
+          "markdown": "El estudiante distinguirá clasificación, estructura y participación comunitaria en estudios de caso territorialmente documentados."
+        },
+        {
+          "id": "desarrollo-por-subtemas",
+          "title": "Desarrollo por subtemas",
+          "markdown": "### 3.4.1. Sistema Nacional de Areas protegidas en el Ecuador (SNAP)_Clasificacion\nLa categoría de manejo identifica la figura de protección de un área según su declaración y normativa aplicable. Debe diferenciarse del subsistema al que pertenece. El catálogo legal y las denominaciones históricas de áreas existentes pueden requerir explicación separada.\n\nEl visor mostrará la categoría exacta que conste en el conjunto de datos oficial y su fecha, sin reclasificar etiquetas para hacerlas coincidir con un esquema simplificado.\n\n### 3.4.2. Sistema Nacional de Areas protegidas del ecuador _SNAP_Estructura\nEl sistema comprende los subsistemas estatal, autónomo descentralizado, comunitario y privado. Subsistema, categoría, zonificación y plan de manejo responden preguntas distintas: organización, figura de protección, uso interno del territorio y gestión.\n\nEl estudiante filtrará áreas por atributos existentes, verificará su fuente y justificará diferencias organizativas y geográficas.\n\n### 3.4.3. Rol de las comunidades en la conservación\nLas comunidades pueden contribuir mediante organización territorial, monitoreo participativo, conocimientos ecológicos, educación, uso sostenible y gobernanza. No todas las comunidades poseen iguales intereses o condiciones, y su participación no debe reducirse a consulta simbólica.\n\nSe distinguirán las áreas del SNAP de otras medidas de conservación basadas en áreas. Se respetará la confidencialidad de ubicaciones sensibles y derechos territoriales."
+        },
+        {
+          "id": "integracion-sig-propuesta",
+          "title": "Integración SIG propuesta",
+          "markdown": "Visor SNAP y documentos de un caso comunitario público y autorizado.\n\n**Evidencia:** Estudio de caso comparativo y reflexión ética."
+        },
+        {
+          "id": "preguntas-para-el-estudiante",
+          "title": "Preguntas para el estudiante",
+          "markdown": "1. ¿Qué información geográfica se observa directamente y qué interpretación requiere fuentes adicionales?\n2. ¿Qué aspectos del caso explican mejor la relación entre territorio y biodiversidad?\n3. ¿Qué limitaciones tienen los datos disponibles para sostener una conclusión?"
+        },
+        {
+          "id": "control-de-rigor",
+          "title": "Control de rigor",
+          "markdown": "- No agregar cantidades de especies, áreas o coberturas sin fuente, fecha y ámbito.\n- Distinguir puntos de registro de distribución completa; límites legales de efectividad ecológica.\n- Para normas, cotejar versión consolidada antes de incorporar artículos o vigencia.\n- No representar geometrías inventadas como delimitaciones oficiales."
+        },
+        {
+          "id": "fuentes-de-consulta-propuestas",
+          "title": "Fuentes de consulta propuestas",
+          "markdown": "- S06\n- S07\n\n> **Pendiente editorial:** verificar y convertir fuentes por afirmación a citas formales; seleccionar imágenes con licencia y confirmar capas antes de publicar."
+        }
+      ],
+      "id": "3.4",
+      "unitId": "3",
+      "sourceFile": "unidad-3/tema-3-4.md",
+      "subtopics": [
+        {
+          "id": "3.4.1",
+          "title": "Sistema Nacional de Areas protegidas en el Ecuador (SNAP)_Clasificacion",
+          "differentiation": null
+        },
+        {
+          "id": "3.4.2",
+          "title": "Sistema Nacional de Areas protegidas del ecuador _SNAP_Estructura",
+          "differentiation": null
+        },
+        {
+          "id": "3.4.3",
+          "title": "Rol de las comunidades en la conservación",
+          "differentiation": null
+        }
+      ],
+      "referenceIds": [
+        "S06",
+        "S07"
+      ],
+      "objective": "El estudiante distinguirá clasificación, estructura y participación comunitaria en estudios de caso territorialmente documentados.",
+      "activity": {
+        "description": "Visor SNAP y documentos de un caso comunitario público y autorizado.",
+        "evidence": {
+          "description": "Estudio de caso comparativo y reflexión ética."
+        },
+        "status": "pending"
+      }
+    }
+  ],
+  "guides": [
+    {
+      "title": "Guía didáctica 01: Ecuador megadiverso: factores ambientales y fauna",
+      "metadataMarkdown": "**Vinculación curricular:** 2.1 y 2.2\n**Estado:** propuesta inicial para revisión docente.\n**Público:** quinto semestre de Pedagogía de las Ciencias Experimentales: Química y Biología.\n**Tiempo sugerido:** 90 minutos prácticos y trabajo autónomo de preparación/cierre.",
+      "sections": [
+        {
+          "id": "objetivo",
+          "title": "Objetivo",
+          "markdown": "Interpretar las relaciones entre condiciones geográficas, ecosistemas y fauna documentada del Ecuador."
+        },
+        {
+          "id": "conocimientos-previos",
+          "title": "Conocimientos previos",
+          "markdown": "Comprender lectura básica de mapas, escalas, leyendas, fuentes cartográficas y conceptos relacionados con la unidad."
+        },
+        {
+          "id": "recursos-y-condiciones",
+          "title": "Recursos y condiciones",
+          "markdown": "Mapa de regiones o relieve; ecosistemas continental cuando aplique; registros faunísticos científicamente documentados.\n\nLa ejecución depende de disponibilidad y autorización de capas reales. Si no hay datos, NO simular resultados como reales."
+        },
+        {
+          "id": "preparacion-del-docente",
+          "title": "Preparación del docente",
+          "markdown": "Verificar URL y funcionamiento de capas, licencias, fechas, escalas, alcance territorial y disponibilidad del material para estudiantes. Seleccionar casos sustentados con fuentes revisables."
+        },
+        {
+          "id": "procedimiento",
+          "title": "Procedimiento",
+          "markdown": "1. Localizar tres ambientes contrastantes.\n2. identificar elevación y ambiente.\n3. documentar dos especies por ambiente con fuente.\n4. representar localizaciones con precisión acorde a evidencia.\n5. formular explicación comparativa.."
+        },
+        {
+          "id": "preguntas-de-interpretacion",
+          "title": "Preguntas de interpretación",
+          "markdown": "1. ¿Qué muestran efectivamente los datos cartográficos seleccionados?\n2. ¿Qué afirmaciones requieren pruebas ecológicas o documentales adicionales?\n3. ¿Cómo justifica la evidencia las conclusiones del caso?\n4. ¿Qué incertidumbres, sesgos o diferencias de escala podrían afectar la interpretación?"
+        },
+        {
+          "id": "evidencia-de-aprendizaje",
+          "title": "Evidencia de aprendizaje",
+          "markdown": "Lámina informativa acompañada de ficha comparativa"
+        },
+        {
+          "id": "evaluacion-propuesta-sobre-diez-puntos",
+          "title": "Evaluación — propuesta sobre diez puntos",
+          "markdown": "- Interpretación geográfica sustentada: 3 puntos.\n- Comprensión científica y conceptual: 3 puntos.\n- Calidad del análisis, argumentación y límites: 2 puntos.\n- Presentación y referencias trazables: 2 puntos."
+        },
+        {
+          "id": "adaptacion-e-inclusion",
+          "title": "Adaptación e inclusión",
+          "markdown": "Proveer alternativas de acceso al mapa mediante capturas documentadas y tablas accesibles si un equipo o conexión no permite interacción. No reducir los objetivos analíticos."
+        },
+        {
+          "id": "etica-trazabilidad-y-seguridad",
+          "title": "Ética, trazabilidad y seguridad",
+          "markdown": "No publicar coordenadas precisas de especies sensibles ni datos comunitarios restringidos. Citar la procedencia y fecha de capas, imágenes y registros."
+        }
+      ],
+      "id": "01",
+      "sourceFile": "guias/guia-01.md",
+      "topicIds": [
+        "2.1",
+        "2.2"
+      ],
+      "rubricId": "propuesta-10",
+      "objective": "Interpretar las relaciones entre condiciones geográficas, ecosistemas y fauna documentada del Ecuador.",
+      "evidence": {
+        "description": "Lámina informativa acompañada de ficha comparativa"
+      }
+    },
+    {
+      "title": "Guía didáctica 02: Flora, endemismo, cuencas y amenazas",
+      "metadataMarkdown": "**Vinculación curricular:** 2.3 y 2.4\n**Estado:** propuesta inicial para revisión docente.\n**Público:** quinto semestre de Pedagogía de las Ciencias Experimentales: Química y Biología.\n**Tiempo sugerido:** 90 minutos prácticos y trabajo autónomo de preparación/cierre.",
+      "sections": [
+        {
+          "id": "objetivo",
+          "title": "Objetivo",
+          "markdown": "Relacionar vegetación, endemismo y sistemas hidrográficos con presiones territoriales observables, sin inferir extinciones de mapas de cobertura."
+        },
+        {
+          "id": "conocimientos-previos",
+          "title": "Conocimientos previos",
+          "markdown": "Comprender lectura básica de mapas, escalas, leyendas, fuentes cartográficas y conceptos relacionados con la unidad."
+        },
+        {
+          "id": "recursos-y-condiciones",
+          "title": "Recursos y condiciones",
+          "markdown": "Cartografía oficial de ecosistemas, hidrografía y cobertura temporal con leyendas compatibles.\n\nLa ejecución depende de disponibilidad y autorización de capas reales. Si no hay datos, NO simular resultados como reales."
+        },
+        {
+          "id": "preparacion-del-docente",
+          "title": "Preparación del docente",
+          "markdown": "Verificar URL y funcionamiento de capas, licencias, fechas, escalas, alcance territorial y disponibilidad del material para estudiantes. Seleccionar casos sustentados con fuentes revisables."
+        },
+        {
+          "id": "procedimiento",
+          "title": "Procedimiento",
+          "markdown": "1. Seleccionar cuenca verificable.\n2. identificar ecosistemas.\n3. seleccionar dos plantas documentadas.\n4. contrastar dos años de cobertura cuando sean comparables.\n5. explicar amenaza posible y límites de inferencia.."
+        },
+        {
+          "id": "preguntas-de-interpretacion",
+          "title": "Preguntas de interpretación",
+          "markdown": "1. ¿Qué muestran efectivamente los datos cartográficos seleccionados?\n2. ¿Qué afirmaciones requieren pruebas ecológicas o documentales adicionales?\n3. ¿Cómo justifica la evidencia las conclusiones del caso?\n4. ¿Qué incertidumbres, sesgos o diferencias de escala podrían afectar la interpretación?"
+        },
+        {
+          "id": "evidencia-de-aprendizaje",
+          "title": "Evidencia de aprendizaje",
+          "markdown": "Portafolio cartográfico con dos mapas y reflexión crítica"
+        },
+        {
+          "id": "evaluacion-propuesta-sobre-diez-puntos",
+          "title": "Evaluación — propuesta sobre diez puntos",
+          "markdown": "- Interpretación geográfica sustentada: 3 puntos.\n- Comprensión científica y conceptual: 3 puntos.\n- Calidad del análisis, argumentación y límites: 2 puntos.\n- Presentación y referencias trazables: 2 puntos."
+        },
+        {
+          "id": "adaptacion-e-inclusion",
+          "title": "Adaptación e inclusión",
+          "markdown": "Proveer alternativas de acceso al mapa mediante capturas documentadas y tablas accesibles si un equipo o conexión no permite interacción. No reducir los objetivos analíticos."
+        },
+        {
+          "id": "etica-trazabilidad-y-seguridad",
+          "title": "Ética, trazabilidad y seguridad",
+          "markdown": "No publicar coordenadas precisas de especies sensibles ni datos comunitarios restringidos. Citar la procedencia y fecha de capas, imágenes y registros."
+        }
+      ],
+      "id": "02",
+      "sourceFile": "guias/guia-02.md",
+      "topicIds": [
+        "2.3",
+        "2.4"
+      ],
+      "rubricId": "propuesta-10",
+      "objective": "Relacionar vegetación, endemismo y sistemas hidrográficos con presiones territoriales observables, sin inferir extinciones de mapas de cobertura.",
+      "evidence": {
+        "description": "Portafolio cartográfico con dos mapas y reflexión crítica"
+      }
+    },
+    {
+      "title": "Guía didáctica 03: SNAP: marco legal, ordenamiento y manejo",
+      "metadataMarkdown": "**Vinculación curricular:** 3.1 y 3.2\n**Estado:** propuesta inicial para revisión docente.\n**Público:** quinto semestre de Pedagogía de las Ciencias Experimentales: Química y Biología.\n**Tiempo sugerido:** 90 minutos prácticos y trabajo autónomo de preparación/cierre.",
+      "sections": [
+        {
+          "id": "objetivo",
+          "title": "Objetivo",
+          "markdown": "Aplicar análisis jurídico-territorial y comparar estrategias de manejo en dos áreas protegidas verificables."
+        },
+        {
+          "id": "conocimientos-previos",
+          "title": "Conocimientos previos",
+          "markdown": "Comprender lectura básica de mapas, escalas, leyendas, fuentes cartográficas y conceptos relacionados con la unidad."
+        },
+        {
+          "id": "recursos-y-condiciones",
+          "title": "Recursos y condiciones",
+          "markdown": "Límites oficiales SNAP con metadatos; fuente jurídica vigente; planes de manejo disponibles.\n\nLa ejecución depende de disponibilidad y autorización de capas reales. Si no hay datos, NO simular resultados como reales."
+        },
+        {
+          "id": "preparacion-del-docente",
+          "title": "Preparación del docente",
+          "markdown": "Verificar URL y funcionamiento de capas, licencias, fechas, escalas, alcance territorial y disponibilidad del material para estudiantes. Seleccionar casos sustentados con fuentes revisables."
+        },
+        {
+          "id": "procedimiento",
+          "title": "Procedimiento",
+          "markdown": "1. Localizar dos áreas.\n2. revisar atributos y fuentes.\n3. identificar sus categorías y disposiciones aplicables.\n4. analizar relación espacial con ecosistemas.\n5. estudiar una medida de gestión documentada en cada caso.."
+        },
+        {
+          "id": "preguntas-de-interpretacion",
+          "title": "Preguntas de interpretación",
+          "markdown": "1. ¿Qué muestran efectivamente los datos cartográficos seleccionados?\n2. ¿Qué afirmaciones requieren pruebas ecológicas o documentales adicionales?\n3. ¿Cómo justifica la evidencia las conclusiones del caso?\n4. ¿Qué incertidumbres, sesgos o diferencias de escala podrían afectar la interpretación?"
+        },
+        {
+          "id": "evidencia-de-aprendizaje",
+          "title": "Evidencia de aprendizaje",
+          "markdown": "Informe jurídico-territorial de áreas protegidas"
+        },
+        {
+          "id": "evaluacion-propuesta-sobre-diez-puntos",
+          "title": "Evaluación — propuesta sobre diez puntos",
+          "markdown": "- Interpretación geográfica sustentada: 3 puntos.\n- Comprensión científica y conceptual: 3 puntos.\n- Calidad del análisis, argumentación y límites: 2 puntos.\n- Presentación y referencias trazables: 2 puntos."
+        },
+        {
+          "id": "adaptacion-e-inclusion",
+          "title": "Adaptación e inclusión",
+          "markdown": "Proveer alternativas de acceso al mapa mediante capturas documentadas y tablas accesibles si un equipo o conexión no permite interacción. No reducir los objetivos analíticos."
+        },
+        {
+          "id": "etica-trazabilidad-y-seguridad",
+          "title": "Ética, trazabilidad y seguridad",
+          "markdown": "No publicar coordenadas precisas de especies sensibles ni datos comunitarios restringidos. Citar la procedencia y fecha de capas, imágenes y registros."
+        }
+      ],
+      "id": "03",
+      "sourceFile": "guias/guia-03.md",
+      "topicIds": [
+        "3.1",
+        "3.2"
+      ],
+      "rubricId": "propuesta-10",
+      "objective": "Aplicar análisis jurídico-territorial y comparar estrategias de manejo en dos áreas protegidas verificables.",
+      "evidence": {
+        "description": "Informe jurídico-territorial de áreas protegidas"
+      }
+    },
+    {
+      "title": "Guía didáctica 04: Conservación in situ, ex situ y gobernanza",
+      "metadataMarkdown": "**Vinculación curricular:** 3.3 y 3.4\n**Estado:** propuesta inicial para revisión docente.\n**Público:** quinto semestre de Pedagogía de las Ciencias Experimentales: Química y Biología.\n**Tiempo sugerido:** 90 minutos prácticos y trabajo autónomo de preparación/cierre.",
+      "sections": [
+        {
+          "id": "objetivo",
+          "title": "Objetivo",
+          "markdown": "Distinguir estrategias de conservación, organización del SNAP y participación comunitaria a partir de casos documentados."
+        },
+        {
+          "id": "conocimientos-previos",
+          "title": "Conocimientos previos",
+          "markdown": "Comprender lectura básica de mapas, escalas, leyendas, fuentes cartográficas y conceptos relacionados con la unidad."
+        },
+        {
+          "id": "recursos-y-condiciones",
+          "title": "Recursos y condiciones",
+          "markdown": "Visor de áreas protegidas y cartografía pública permitida; documentos institucionales de casos.\n\nLa ejecución depende de disponibilidad y autorización de capas reales. Si no hay datos, NO simular resultados como reales."
+        },
+        {
+          "id": "preparacion-del-docente",
+          "title": "Preparación del docente",
+          "markdown": "Verificar URL y funcionamiento de capas, licencias, fechas, escalas, alcance territorial y disponibilidad del material para estudiantes. Seleccionar casos sustentados con fuentes revisables."
+        },
+        {
+          "id": "procedimiento",
+          "title": "Procedimiento",
+          "markdown": "1. Identificar caso in situ y ex situ.\n2. contextualizar localización sin publicar sitios sensibles.\n3. distinguir subsistema de categoría.\n4. analizar participación comunitaria.\n5. proponer indicador de seguimiento y reconocer límites de datos.."
+        },
+        {
+          "id": "preguntas-de-interpretacion",
+          "title": "Preguntas de interpretación",
+          "markdown": "1. ¿Qué muestran efectivamente los datos cartográficos seleccionados?\n2. ¿Qué afirmaciones requieren pruebas ecológicas o documentales adicionales?\n3. ¿Cómo justifica la evidencia las conclusiones del caso?\n4. ¿Qué incertidumbres, sesgos o diferencias de escala podrían afectar la interpretación?"
+        },
+        {
+          "id": "evidencia-de-aprendizaje",
+          "title": "Evidencia de aprendizaje",
+          "markdown": "Estudio de caso con mapa de contexto y cuadro comparativo"
+        },
+        {
+          "id": "evaluacion-propuesta-sobre-diez-puntos",
+          "title": "Evaluación — propuesta sobre diez puntos",
+          "markdown": "- Interpretación geográfica sustentada: 3 puntos.\n- Comprensión científica y conceptual: 3 puntos.\n- Calidad del análisis, argumentación y límites: 2 puntos.\n- Presentación y referencias trazables: 2 puntos."
+        },
+        {
+          "id": "adaptacion-e-inclusion",
+          "title": "Adaptación e inclusión",
+          "markdown": "Proveer alternativas de acceso al mapa mediante capturas documentadas y tablas accesibles si un equipo o conexión no permite interacción. No reducir los objetivos analíticos."
+        },
+        {
+          "id": "etica-trazabilidad-y-seguridad",
+          "title": "Ética, trazabilidad y seguridad",
+          "markdown": "No publicar coordenadas precisas de especies sensibles ni datos comunitarios restringidos. Citar la procedencia y fecha de capas, imágenes y registros."
+        }
+      ],
+      "id": "04",
+      "sourceFile": "guias/guia-04.md",
+      "topicIds": [
+        "3.3",
+        "3.4"
+      ],
+      "rubricId": "propuesta-10",
+      "objective": "Distinguir estrategias de conservación, organización del SNAP y participación comunitaria a partir de casos documentados.",
+      "evidence": {
+        "description": "Estudio de caso con mapa de contexto y cuadro comparativo"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "S01",
+      "institucion": "Convenio sobre la Diversidad Biológica",
+      "recurso": "Perfil de Ecuador",
+      "url": "https://www.cbd.int/countries/profile?country=ec",
+      "verificacion_pendiente": "Consulta institucional; su propio texto de perfil advierte estado de borrador en algunos apartados"
+    },
+    {
+      "id": "S02",
+      "institucion": "Sistema Nacional de Monitoreo de Bosques",
+      "recurso": "Monitoreo de condiciones de ecosistemas terrestres",
+      "url": "https://snmb.ambiente.gob.ec/snmb/?page_id=721",
+      "verificacion_pendiente": "Fuente oficial de cartografía de ecosistemas; comprobar acceso y condiciones para reutilización"
+    },
+    {
+      "id": "S03",
+      "institucion": "Sistema Nacional de Monitoreo de Bosques",
+      "recurso": "Monitoreo de carbono y estratos forestales",
+      "url": "https://snmb.ambiente.gob.ec/snmb/?page_id=719",
+      "verificacion_pendiente": "Fuente de estratos forestales y productos cartográficos"
+    },
+    {
+      "id": "S04",
+      "institucion": "MapBiomas Ecuador",
+      "recurso": "Cobertura y uso de la tierra",
+      "url": "https://ecuador.mapbiomas.org/",
+      "verificacion_pendiente": "Revisar metodología de la colección y licencia antes de integrar"
+    },
+    {
+      "id": "S05",
+      "institucion": "Constitución de la República del Ecuador",
+      "recurso": "Texto consolidado vigente",
+      "url": "https://www.asambleanacional.gob.ec/",
+      "verificacion_pendiente": "Portal institucional; buscar texto consolidado vigente para artículos citados"
+    },
+    {
+      "id": "S06",
+      "institucion": "Asamblea Nacional del Ecuador",
+      "recurso": "Código Orgánico del Ambiente",
+      "url": "https://www.asambleanacional.gob.ec/sites/default/files/private/asambleanacional/filesasambleanacionalnameuid-28/Codigo-Organico-Ambiente.pdf",
+      "verificacion_pendiente": "Texto de referencia; corroborar reformas y versión vigente"
+    },
+    {
+      "id": "S07",
+      "institucion": "Secretaría del CDB",
+      "recurso": "Marco Mundial Kunming-Montreal",
+      "url": "https://www.cbd.int/gbf",
+      "verificacion_pendiente": "Documento oficial internacional"
+    },
+    {
+      "id": "S08",
+      "institucion": "Dirección del Parque Nacional Galápagos",
+      "recurso": "Programas de conservación",
+      "url": "https://galapagos.gob.ec/",
+      "verificacion_pendiente": "Seleccionar documentos del caso y comprobar páginas específicas"
+    }
+  ],
+  "matrix": [
+    {
+      "tema": "2.1",
+      "titulo_oficial": "Diversidad de las Especies",
+      "subtemas_oficiales": "2.1.1 Características ambientales del Ecuador, 2.1.2 Características ambientales del Ecuador, 2.1.3 Características Generales del Ecuador",
+      "resultado_propuesto": "El estudiante relacionará factores geográficos y ambientales con la diversidad ecológica, distinguiendo observación cartográfica de inferencia biológica.",
+      "actividad_SIG_propuesta": "Mapa físico, elevación y cartografía oficial de ecosistemas; contraste de tres localidades ecuatorianas.",
+      "evidencia_propuesta": "Mapa comentado y ficha comparativa."
+    },
+    {
+      "tema": "2.2",
+      "titulo_oficial": "Flora y Fauna del Ecuador",
+      "subtemas_oficiales": "2.2.1 Fauna del Ecuador / ecosistemas, 2.2.2 Fauna del Ecuador, 2.2.3 Áreas protegidas del Ecuador",
+      "resultado_propuesto": "El estudiante examinará relaciones entre fauna, ecosistemas y distribución geográfica a partir de casos y registros verificables.",
+      "actividad_SIG_propuesta": "Mapa de ecosistemas, límites oficiales SNAP y fuentes biológicas documentadas.",
+      "evidencia_propuesta": "Lámina informativa y ficha de seis especies en tres áreas documentadas."
+    },
+    {
+      "tema": "2.3",
+      "titulo_oficial": "Flora y Fauna del Ecuador",
+      "subtemas_oficiales": "2.3.1 Flora del Ecuador Ecosistemas, 2.3.2 Especies Endemicas, 2.3.3 Manejo de cuencas hídricas en el Ecuador",
+      "resultado_propuesto": "El estudiante explicará flora, endemismo y cuencas a partir de relaciones espaciales ecológicamente fundamentadas.",
+      "actividad_SIG_propuesta": "Mapa de ecosistemas, hidrografía, elevación, fichas científicas de plantas.",
+      "evidencia_propuesta": "Informe cartográfico de una cuenca y dos taxones documentados."
+    },
+    {
+      "tema": "2.4",
+      "titulo_oficial": "Extinción de las Especies",
+      "subtemas_oficiales": "2.4.1 Extinción de las especies, 2.4.2 Amenazas para la perdida de la Biodiversidad, 2.4.3 Amenazas para la perdida de la Biodiversidad",
+      "resultado_propuesto": "El estudiante distinguirá riesgo de extinción, transformación territorial y presiones ambientales mediante evidencia trazable.",
+      "actividad_SIG_propuesta": "Mapas temporales de cobertura, registros biológicos y ficha UICN cuando esté disponible.",
+      "evidencia_propuesta": "Portafolio con interpretación de cambios y advertencias metodológicas."
+    },
+    {
+      "tema": "3.1",
+      "titulo_oficial": "Ámbito legal y normativa ecuatoriana",
+      "subtemas_oficiales": "3.1.1 Tratamiento constitucional de la diversidad biológica, 3.1.2 Instrumentos Internacionales, 3.1.3 Desarrollo Normativo de diversidad biológica",
+      "resultado_propuesto": "El estudiante interpretará fundamentos legales aplicables a la conservación, sin utilizar el SIG como sustituto de análisis jurídico.",
+      "actividad_SIG_propuesta": "Cartografía oficial de un área protegida y documentos normativos vigentes.",
+      "evidencia_propuesta": "Ficha de análisis jurídico-territorial."
+    },
+    {
+      "tema": "3.2",
+      "titulo_oficial": "Sistema Nacional de Áreas Protegidas",
+      "subtemas_oficiales": "3.2.1 Ordenamiento territorial, 3.2.2 Estrategias de manejo y conservación, 3.2.3 Estrategias de manejo y conservación",
+      "resultado_propuesto": "El estudiante analizará relaciones espaciales de protección y manejo diferenciando cartografía, gestión y resultados ecológicos.",
+      "actividad_SIG_propuesta": "Límites oficiales SNAP, ecosistemas y cobertura, planes de manejo disponibles.",
+      "evidencia_propuesta": "Informe cartográfico comparativo de dos áreas."
+    },
+    {
+      "tema": "3.3",
+      "titulo_oficial": "Extinción de especies en el Ecuador",
+      "subtemas_oficiales": "3.3.1 Conservación - in situ, 3.3.2 Conservación - ex situ, 3.3.3 Herramientas de Conservación",
+      "resultado_propuesto": "El estudiante comparará conservación in situ y ex situ y justificará herramientas apropiadas para casos reales.",
+      "actividad_SIG_propuesta": "Cartografía contextual y documentación institucional de un caso de conservación.",
+      "evidencia_propuesta": "Estudio de caso comparativo."
+    },
+    {
+      "tema": "3.4",
+      "titulo_oficial": "Estrategias y manejo de conservación en el Ecuador",
+      "subtemas_oficiales": "3.4.1 Sistema Nacional de Areas protegidas en el Ecuador (SNAP)_Clasificacion, 3.4.2 Sistema Nacional de Areas protegidas del ecuador _SNAP_Estructura, 3.4.3 Rol de las comunidades en la conservación",
+      "resultado_propuesto": "El estudiante distinguirá clasificación, estructura y participación comunitaria en estudios de caso territorialmente documentados.",
+      "actividad_SIG_propuesta": "Visor SNAP y documentos de un caso comunitario público y autorizado.",
+      "evidencia_propuesta": "Estudio de caso comparativo y reflexión ética."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "Interpretación geográfica sustentada",
+      "points": 3
+    },
+    {
+      "criterion": "Comprensión científica y conceptual",
+      "points": 3
+    },
+    {
+      "criterion": "Calidad del análisis, argumentación y límites",
+      "points": 2
+    },
+    {
+      "criterion": "Presentación y referencias trazables",
+      "points": 2
+    }
+  ],
+  "editorial": [
+    {
+      "id": "ED-01",
+      "text": "Contrastar cada uno de los 24 títulos con el sílabo, sin ocultar repeticiones.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-02",
+      "text": "Contrastar cada resultado de aprendizaje con el sílabo y distinguir adaptaciones propuestas.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-03",
+      "text": "Sustituir referencias generales por referencias completas en APA 7 y enlaces estables.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-04",
+      "text": "Incorporar citas junto a cada afirmación que lo necesite.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-05",
+      "text": "Verificar legislación con versiones oficiales consolidadas y fecha de consulta.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-06",
+      "text": "Comprobar que ninguna cifra actual del SNAP se asuma de modo permanente.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-07",
+      "text": "Confirmar nombres científicos y nombres geográficos de los casos antes de publicarlos.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-08",
+      "text": "Verificar licencias y fechas de capas geográficas, imágenes y gráficos.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-09",
+      "text": "Evitar coordenadas precisas de especies amenazadas y datos comunitarios sensibles.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-10",
+      "text": "Revisar coherencia entre objetivos, actividades, productos y rúbricas.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-11",
+      "text": "Obtener revisión académica del tutor/docente.",
+      "status": "pending"
+    },
+    {
+      "id": "ED-12",
+      "text": "Comprobar accesibilidad, navegación móvil y lectura de contenidos largos.",
+      "status": "pending"
+    }
+  ],
+  "orientation": "# I. Orientaciones y alcance\n\nBIOSIG 2.0 — Paquete académico inicial\nPropósito: organizar borradores de las unidades 2 y 3 para posterior revisión y programación educativa.\nLímite crítico: ESTE PAQUETE NO CONTIENE NI REUTILIZA CÓDIGO DE LA PLATAFORMA ANTERIOR. Son únicamente archivos nuevos de contenido, guías y control académico. No constituye una aplicación ejecutable.\nContenido\nunidad-2/: cuatro temas y doce subtemas.\nunidad-3/: cuatro temas y doce subtemas.\nguias/: cuatro guías integradoras propuestas (no cantidad prescrita en el sílabo).\ncontrol/matriz_curricular.csv: relación temas-contenidos-actividades-evidencias.\ncontrol/fuentes.csv: fuentes institucionales y tareas de verificación.\ncontrol/REVISION_EDITORIAL.md: lista de pendientes.\nPROMPT_PARA_CODEX.md: instrucciones para implementar únicamente después de la revisión.\nReferencia curricular\nUNACH, Sí­labo de «Biodiversidad del Ecuador: Flora, Fauna y Especies en Peligro de Extinción», periodo 2025-1S, pp. 5–6 y 8–9. Los títulos oficiales se conservaron incluso cuando están repetidos (2.1.1/2.1.2, 2.4.2/2.4.3, 3.2.2/3.2.3).\nSituación editorial\nLos documentos son borradores condensados originales preparados a partir de la planificación y el desarrollo temático de esta conversación, NO transcripciones íntegras de todos los textos escritos en el chat ni versiones finales aptas para publicación. Deben ampliarse, contrastarse con fuentes primarias, incluir citas por afirmación e ilustraciones autorizadas, y validarse académicamente antes de su uso público.\nQué hacer primero\nRevisar la matriz con el sílabo y el perfil.\nAuditar bibliografía y citar afirmaciones específicas con documento, edición, fecha y página cuando proceda.\nValidar los casos territoriales y disponibilidad de capas.\nAprobar las guías didácticas y rúbricas.\nIntegrar por etapas con Codex, sin añadir Google Earth Engine ni reutilizar código anterior.\n"
+}
