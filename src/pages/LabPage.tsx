@@ -1,9 +1,15 @@
+import { Link, useSearchParams } from "react-router-dom";
+import { topics, topicPath } from "../data/academic";
+import { useReadingPosition } from "../hooks/useReadingPosition";
 import { GuideList } from "../components/academic/GuideList";
 import { Compass, Layers3, Map, ScanLine } from "lucide-react";
 import { SectionHeading } from "../components/ui/SectionHeading";
 import { LinkButton } from "../components/ui/LinkButton";
 
 export function LabPage() {
+  useReadingPosition();
+  const [search] = useSearchParams();
+  const origin = topics.find((t) => t.id === search.get("tema"));
   return (
     <>
       <div className="lab-page">
@@ -15,6 +21,11 @@ export function LabPage() {
             Un espacio para aprender a interpretar el territorio con Sistemas de
             Información Geográfica.
           </SectionHeading>
+          {origin && (
+            <Link className="button button-secondary" to={topicPath(origin)}>
+              ← Volver al tema {origin.id}
+            </Link>
+          )}
           <div className="lab-workspace">
             <aside className="lab-sidebar">
               <span className="lab-sidebar-title">
@@ -62,7 +73,9 @@ export function LabPage() {
       </div>
       <section className="container page-content academic-page lab-guides">
         <p className="eyebrow">GUÍAS DIDÁCTICAS · UNIDADES 2 Y 3</p>
-        <h2>Explorar con una pregunta, interpretar con evidencia.</h2>
+        <h2 id="lectura-guias" tabIndex={-1}>
+          Explorar con una pregunta, interpretar con evidencia.
+        </h2>
         <p>
           Cuatro guías propuestas para revisión docente. Sus procedimientos
           requieren capas y herramientas verificadas que todavía no están
