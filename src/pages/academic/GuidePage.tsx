@@ -39,6 +39,12 @@ export function GuidePage() {
           ← Volver al tema {origin.id}
         </Link>
       )}
+      <Link
+        className="button button-primary"
+        to={`/laboratorio-sig?guia=${guide.id}${origin ? `&tema=${origin.id}` : ""}`}
+      >
+        Abrir práctica SIG de la guía {guide.id}
+      </Link>
       <AcademicNotice />
       <AcademicNotice cartography />
       <div className="reading-layout">
