@@ -14,12 +14,12 @@ export function AcademicNotice({
     >
       <strong>
         {cartography
-          ? "Actividad SIG propuesta · herramientas pendientes"
+          ? "Práctica SIG · alcance de las herramientas"
           : "Borrador académico para revisión"}
       </strong>
       <p>
         {cartography
-          ? "El visor y las capas aún no están implementados. Puedes consultar el procedimiento; su ejecución requiere datos reales, autorizados y revisados. No se generan análisis ni resultados espaciales."
+          ? "El laboratorio permite explorar el mapa de referencia, consultar SNAP cuando el proveedor responde y registrar evidencias. Especies, coberturas y análisis temporales requieren fuentes externas; no se generan resultados espaciales automáticos."
           : "Se conserva el material entregado. Las afirmaciones, referencias y vigencia normativa requieren revisión científica y docente. Los títulos se reproducen del paquete; su cotejo con el sílabo sigue pendiente."}
       </p>
       {!cartography && (

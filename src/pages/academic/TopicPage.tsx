@@ -1,6 +1,12 @@
 import { Link, useLocation, useParams } from "react-router-dom";
 import { useReadingPosition } from "../../hooks/useReadingPosition";
-import { topics, units, topicPath, sectionId } from "../../data/academic";
+import {
+  topics,
+  units,
+  topicPath,
+  sectionId,
+  topicGuides,
+} from "../../data/academic";
 import { AcademicNotice } from "../../components/academic/AcademicNotice";
 import { AcademicMarkdown } from "../../components/academic/AcademicMarkdown";
 import { ReferenceList } from "../../components/academic/ReferenceList";
@@ -106,9 +112,9 @@ export function TopicPage() {
               {stage.id === "explorar" && (
                 <Link
                   className="text-link"
-                  to={`/laboratorio-sig?tema=${topic.id}`}
+                  to={`/laboratorio-sig?tema=${topic.id}&guia=${topicGuides(topic.id)[0]?.id ?? "01"}`}
                 >
-                  Consultar disponibilidad del visor →
+                  Abrir mapa y práctica del tema →
                 </Link>
               )}
               {topic.sections

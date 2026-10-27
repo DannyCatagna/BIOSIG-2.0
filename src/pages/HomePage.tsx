@@ -41,7 +41,7 @@ export function HomePage() {
           <div className="hero-actions">
             <LinkButton to="/ecuador-megadiverso">Aprender</LinkButton>
             <Link to="/laboratorio-sig" className="text-link">
-              Explorar mapa · en preparación <ArrowRight size={17} />
+              Explorar mapa <ArrowRight size={17} />
             </Link>
             <Link to="/laboratorio-sig?apartado=guias" className="text-link">
               Realizar prácticas <ArrowRight size={17} />

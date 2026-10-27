@@ -63,8 +63,10 @@ export function EditorialPage() {
               apartado independiente desarrollado en el material.
             </li>
             <li>
-              El visor, las capas, los casos geográficos y los análisis siguen
-              pendientes. No hay resultados cartográficos simulados.
+              El visor incorpora contexto territorial y consulta SNAP con
+              selección y comparación de atributos. La fecha, licencia y
+              vigencia jurídica del SNAP requieren contraste. Especies,
+              coberturas y análisis espaciales siguen pendientes.
             </li>
             <li>
               Las fuentes S01–S08 conservan sus metadatos originales. Faltan

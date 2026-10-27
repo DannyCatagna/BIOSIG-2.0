@@ -1,6 +1,6 @@
 # BIOSIG 2.0
 
-Aplicación educativa para estudiantes de quinto semestre de Pedagogía de las Ciencias Experimentales, Química y Biología. Primera etapa: interfaz base para explorar biodiversidad, áreas protegidas y conservación del Ecuador.
+Aplicación educativa para estudiantes de quinto semestre de Pedagogía de las Ciencias Experimentales, Química y Biología. Lecturas académicas, visor geográfico y prácticas para explorar biodiversidad, áreas protegidas y conservación del Ecuador.
 
 ## Requisitos e instalación
 
@@ -53,14 +53,14 @@ Tecnologías: React, TypeScript estricto, Vite, React Router y Lucide (iconos). 
 - Cinco secciones navegables, menú móvil, estado de ruta activa y página 404.
 - Inicio con ilustración conceptual original inspirada en los Andes: no es una fotografía ni cartografía.
 - Guías iniciales de indagación, preguntas para el aula y enlaces institucionales de consulta.
-- Laboratorio oscuro con estado explícito «En preparación». No integra todavía mapas, capas, análisis SIG, cuentas ni persistencia.
+- Laboratorio SIG con Leaflet, contexto real Natural Earth, consulta SNAP mediante `/api/snap`, selección, búsqueda y comparación de atributos. Cuatro cuadernos con almacenamiento local y evidencia TXT. La conexión SNAP requiere disponibilidad del proveedor; no hay cuentas, especies simuladas ni análisis automáticos.
 - Navegación por teclado, enlace para saltar al contenido, foco al cambiar de ruta, etiquetas accesibles y respeto de movimiento reducido.
 
 Los textos son propuestas didácticas, no un inventario científico. No se incluyen cifras de especies, superficies, delimitaciones ni catálogos sin verificar. Los portales de INABIO, SNAP y el Convenio sobre la Diversidad Biológica son puntos de consulta; antes de integrar datos habrá que comprobar publicaciones, fechas, licencias y metadatos. No existe sincronización con esas fuentes en esta etapa.
 
 ## Ramas
 
-`main` conserva la base del repositorio. El desarrollo inicial se realiza en `desarrollo-inicial`, sin fusión automática. El repositorio Tesis-2 no forma parte de este proyecto.
+`main` contiene las mejoras académicas aprobadas. El visor y las prácticas de esta entrega se revisan en `feat/visor-sig-y-guias-tesis`, sin fusión automática. El repositorio Tesis-2 no forma parte de este proyecto.
 
 ## Publicación en Vercel
 
@@ -68,9 +68,7 @@ No publiques el `index.html` de la raíz como archivo estático: es la entrada d
 
 El `vercel.json` de este repositorio configura Vite, `npm ci`, `npm run build` y salida `dist` para despliegues desde código fuente. El router usa fragmentos `/#/...`, por lo que no necesita una regla que reescriba todas las solicitudes a HTML.
 
-Para la entrega estática ya compilada, utiliza `BIOSIG-2.0-produccion.zip`. Extrae y arrastra la carpeta `biosig2-produccion` sobre el proyecto existente en el panel de Vercel. Esta entrega contiene solo HTML, JavaScript, CSS, imágenes y una configuración estática sin compilación. No requiere Node.js en la computadora del usuario. Mantén `index.html` directamente dentro de la carpeta que subes.
-
-Referencia: https://vercel.com/docs/drop#keep-iterating-on-a-dropped-project
+Esta versión utiliza una función Node en `api/snap.mjs`. Publica desde el repositorio completo conectado a Vercel, usando una rama de revisión para obtener una vista previa. El paquete estático de etapas anteriores no incluye esa API y no permite consultar SNAP. No es necesario instalar Node.js en el dispositivo del estudiante. La incorporación a producción requiere revisión y autorización.
 
 ## Pruebas de producción para mantenimiento
 
@@ -112,3 +110,23 @@ La ruta `/#/revision-editorial` presenta los doce pendientes del documento, obse
 No se incorporó Google Earth Engine, cartografía inventada, persistencia de respuestas ni afirmaciones sobre mejora del aprendizaje. La valoración de utilidad y usabilidad de la tesis permanece separada de los criterios formativos de las guías.
 
 Consulta `docs/INTEGRACION-ACADEMICA.md` para el detalle de archivos, comprobaciones y pendientes. Esta integración no se ha publicado ni fusionado con `main`; los ZIP de producción de entregas anteriores no se actualizaron.
+
+## Visor y prácticas SIG
+
+Abre **Laboratorio SIG**, elige una guía y pulsa **Cargar capa SNAP**. Usa el mapa o el buscador para seleccionar un área, consultar su ficha y añadirla a la comparación o al cuaderno. La base contextual se distribuye localmente; SNAP se consulta en vivo. Si falla, la interfaz muestra el error y permite reintentar.
+
+Las respuestas se guardan solo en el navegador, por guía. Se pueden descargar en TXT e imprimir desde un editor de texto. En dispositivos compartidos, borra el cuaderno después de descargarlo. La descarga no incluye geometrías ni captura cartográfica.
+
+- [Fuentes, licencias, proyección y límites](docs/fuentes-cartograficas.md).
+- [Guion de socialización e instrumento Likert pendiente de validación](docs/socializacion-tesis.md).
+- [Implementación y validación WebGIS](docs/WEBGIS-TESIS.md).
+
+### Backend y pruebas
+
+Vercel ejecuta `api/snap.mjs` como función Node; `server/snap.mjs` comparte el manejador con Vite en desarrollo y preview. No se requieren claves o variables de producción. **Publicar solamente la carpeta dist en un servidor estático no incluye la API**: importa el repositorio completo en Vercel.
+
+Comandos reales: `npm run lint`, `npm run test:api`, `npm run build` y `npm run test:production`. Las pruebas de navegador requieren Chromium de Playwright o `CHROMIUM_PATH` apuntando a un Chromium instalado.
+
+Prueba cartográfica de aceptación: `BIOSIG_SNAP_LIVE=1 npm run test:production -- --grep "SNAP EN VIVO"`. Realiza consultas auténticas, no sustituye el proveedor con fixtures. Sin esa variable se indica explícitamente como omitida y no se considera validación del SNAP.
+
+En entornos gestionados con proxy, habilita el dominio `geovisorm.controlrecursosyenergia.gob.ec` en la configuración de red. Node 24 permite respetar el proxy con `NODE_USE_ENV_PROXY=1` al iniciar Vite. No desactives la verificación TLS ni intentes eludir la política de red. Esta configuración local no modifica Vercel.

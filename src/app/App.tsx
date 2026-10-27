@@ -3,7 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import { Layout } from "../components/layout/Layout";
 import { HomePage } from "../pages/HomePage";
 import { LearningPage } from "../pages/LearningPage";
-import { LabPage } from "../pages/LabPage";
+const LabPage = lazy(() =>
+  import("../pages/LabPage").then((module) => ({ default: module.LabPage })),
+);
 import { NotFoundPage } from "../pages/NotFoundPage";
 const UnitPage = lazy(() =>
   import("../pages/academic/UnitPage").then((module) => ({
